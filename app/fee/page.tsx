@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </header>
       <div className='flex justify-around text-4xl font-bold  my-5'>
-        ACIMUN'2024 Conference Fees Are As Follows
+        ACIMUN&apos;2024 Conference Fees Are As Follows
       </div>
 
       <div className='flex justify-center'>
