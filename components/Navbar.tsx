@@ -36,6 +36,7 @@ const Navbar = ( ) => {
                 <span>ACIMUN</span>
               </div>
             </a>
+            <div>
             <button
               className="navbar-toggler md:hidden"
               type="button"
@@ -58,6 +59,8 @@ const Navbar = ( ) => {
                 </div>
                
             </button>
+            </div>
+           
             <div>
             <Drawer
       anchor= "right"
