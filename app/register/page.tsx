@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaRegFile } from "react-icons/fa6";
+import Navbar from '../../components/Navbar';
 export default function Home() {
   return (
     <>
@@ -36,66 +37,8 @@ export default function Home() {
     <link href="css/responsive.css" rel="stylesheet" />
     <div className="hero_area">
       <header className="header_section">
-        <div className="container">
-          <nav className="navbar navbar-expand-lg custom_nav-container ">
-            <a className="navbar-brand" href="/">
-              <div className='object-scale-down mt-[18px] h-[100px] w-[100px]'>
-               <img src="https://www.acimun.com/wp-content/uploads/2022/10/f68d6cb0-e8e8-4bbd-95c9-af49ed34eae6.png" alt="" />
-              </div>
-             
-              <div className='navbar-brand'>
-                <span>ACIMUN</span>
-              </div>
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="s-1"> </span>
-              <span className="s-2"> </span>
-              <span className="s-3"> </span>
-            </button>
-            <div className="ml-[300px]" id="navbarSupportedContent">
-              <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                <ul className="navbar-nav  ">
-                  <li className="nav-item">
-                  <Link className="nav-link" href="/">
-                      {" "}
-                      Home
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" href="/about">
-                      {" "}
-                      About
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/fee">
-                      {" "}
-                      Fees{" "}
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="blog.html">
-                      {" "}
-                      News{" "}
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link " href="/about">
-                      Register{" "}
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+        <div className="">
+          <Navbar/>
         </div>
       </header>
  

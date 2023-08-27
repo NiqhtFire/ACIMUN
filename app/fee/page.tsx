@@ -1,6 +1,17 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaRegFile } from "react-icons/fa6";
+import Navbar from '../../components/Navbar';
+
+
+const fees = [
+  {content: "Participation Fee Per Delegate",fee:"900" + " Turkish Liras"},
+  {content: "Participation Fee Per ICJ Member",fee:"900" + " Turkish Liras"},
+  {content: "Participation Fee Per Student Officer",fee:"900" + " Turkish Liras"},
+  {content: "Delegation Fee (per delegation only)",fee:"450" + " Turkish Liras"},
+]
+
+
 export default function Home() {
   return (
     <>
@@ -36,66 +47,8 @@ export default function Home() {
     <link href="css/responsive.css" rel="stylesheet" />
     <div className="hero_area">
       <header className="header_section">
-        <div className="container">
-          <nav className="navbar navbar-expand-lg custom_nav-container ">
-            <a className="navbar-brand" href="/">
-              <div className='object-scale-down mt-[18px] h-[100px] w-[100px]'>
-               <img src="https://www.acimun.com/wp-content/uploads/2022/10/f68d6cb0-e8e8-4bbd-95c9-af49ed34eae6.png" alt="" />
-              </div>
-             
-              <div className='navbar-brand'>
-                <span>ACIMUN</span>
-              </div>
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="s-1"> </span>
-              <span className="s-2"> </span>
-              <span className="s-3"> </span>
-            </button>
-            <div className="ml-[300px]" id="navbarSupportedContent">
-              <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                <ul className="navbar-nav  ">
-                  <li className="nav-item">
-                  <Link className="nav-link" href="/">
-                      {" "}
-                      Home
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" href="/about">
-                      {" "}
-                      About
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/fee">
-                      {" "}
-                      Fees{" "}
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="blog.html">
-                      {" "}
-                      News{" "}
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link text-black pt-3 font-size-[15px]" href="/about">
-                      Register{" "}
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+        <div className="">
+        <Navbar/>
         </div>
       </header>
       <div className='flex justify-around text-4xl font-bold  my-5'>
@@ -103,16 +56,20 @@ export default function Home() {
       </div>
 
       <div className='flex justify-center'>
-      <div className="grid grid-cols-2 gap-4 place-items-center place-content-center h-56 w-20 ...">
-  <div>01</div>
-  <div>02</div>
-  <div>03</div>
-  <div>04</div>
-  <div>05</div>
-  <div>06</div>
-</div>
+        <div className="grid grid-cols-2 gap-4 place-items-center place-content-center h-56 pointer-events-none bg-blue-800/75 rounded-xl mx-4 pl-2 mt-2 md:mt-0 md:mx-0 md:pl-5">
+          {fees.map((feez, i) =>{
+            return(
+             <><div className='font-bold' key={i} >{feez.content}</div><div>{feez.fee}</div></> 
+            )
+          })}
+        </div>
       </div>
-    
+    <div className='flex justify-center md:px-[200px] px-[30px] py-[50px]'>
+          The fees include: First day welcome barbecue, lunch for three days (2nd, 3rd, and 4th days of the conference), snacks/drinks throughout the conference, and of course, conference giveaways such as the plaque-cards, pens, and notepads.
+    </div>
+    <div className='flex justify-center md:px-[200px] px-[30px] py-[25px]'>
+          Transportation is NOT included in the fee and the fee for shuttles will be communicated to the schools who wish to use them.
+    </div>
     </div>
   
     

@@ -7,10 +7,10 @@ import { useState } from 'react';
 
 const navs = [
     {title: "Home", route: "/"},
-    {title: "About", route: "/about"},
+    {title: "About", route: "/"},
     {title: "Fees", route: "/fee"},
     {title: "News", route: "/news"},
-    {title: "Register", route: "/about"},
+    {title: "Register", route: "/register"},
     
 ]
 
@@ -69,7 +69,7 @@ const Navbar = ( ) => {
             <div className='flex flex-col gap-4 py-2 px-4 text-lg'>
                 {navs.map((nav, i) => {
                         return(
-                            <Link href = {nav.route}>{nav.title}</Link>
+                            <Link key={i} href = {nav.route}>{nav.title}</Link>
                         )
                 })}
             </div>
@@ -85,7 +85,7 @@ const Navbar = ( ) => {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="/about">
+                    <Link className="nav-link" href="/">
                       {" "}
                       About
                     </Link>
@@ -105,7 +105,7 @@ const Navbar = ( ) => {
 
                 
                   <li className="nav-item ">
-                    <a className="nav-link  " href="/about">
+                    <a className="nav-link  " href="/register">
                       Register{" "}
                     </a>
                   </li>
