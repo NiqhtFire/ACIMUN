@@ -23,10 +23,11 @@ const navs = [
 const Navbar = ( ) => {
     const [open, setOpen] = useState(false);
     return (
-        <header className="header_section">
+        <header className="bg-blue-900">
+        
         <div className="md:mx-[60px]">
         
-          <nav className="navbar  custom_nav-container flex justify-between mt-[30px] ">
+          <nav className="navbar  custom_nav-container flex justify-between  ">
             <div>
             <a className="navbar-brand gap-3" href="/">
               <div className=''>
@@ -124,6 +125,8 @@ const Navbar = ( ) => {
               </div>
             </div>
           </nav>
+        </div>
+        <div className='flex flex-col bg-gray-500 h-[4px]'>
         </div>
       </header>
     )

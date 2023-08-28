@@ -100,7 +100,7 @@ body {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   padding: 7px 20px;
   margin: 10px 15px;
-  color: #000000;
+  color: #fefefe;
   text-align: center;
   border-radius: 35px;
   text-transform: uppercase;
@@ -108,7 +108,7 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link, .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  background-color: #0f3986;
+  background-color: #0f0148;
   color: #ffffff;
 }
 
@@ -159,7 +159,7 @@ a:focus {
 .navbar-brand span {
  
   font-weight: 700;
-  color: #0f3986;
+  color: #ffffff;
 }
 .navbar-sd {
  font-size: 50px;
