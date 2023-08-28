@@ -24,18 +24,25 @@ const Navbar = ( ) => {
     const [open, setOpen] = useState(false);
     return (
         <header className="header_section">
-        <div className="md:mx-[110px]">
+        <div className="md:mx-[60px]">
         
-          <nav className="navbar  custom_nav-container flex justify-between mt-[40px] ">
+          <nav className="navbar  custom_nav-container flex justify-between mt-[30px] ">
+            <div>
             <a className="navbar-brand gap-3" href="/">
               <div className=''>
                <img className="object-scale-down h-[70px] w-[70px]"src="https://www.acimun.com/wp-content/uploads/2022/10/f68d6cb0-e8e8-4bbd-95c9-af49ed34eae6.png" alt="" />
               </div>
              
-              <div className='navbar-brand'>
+              <div className='navbar-brand navbar-sd text-2xl]'>
                 <span>ACIMUN</span>
+               
               </div>
+              <span className='font-sans text-[30px] font-italic'>2024</span>
+              
             </a>
+           
+            </div>
+           
             <div>
             <button
               className="navbar-toggler md:hidden"

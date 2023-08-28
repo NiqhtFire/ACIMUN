@@ -48,13 +48,13 @@ export default function Home() {
 
                   
                 </h1>
-                <p>
+                <p className='text-[20px]'>
                 ACIMUN'23 REGISTRATIONS ARE FINISHED! <br />
                  YOU'LL BE CONTACTED SOON
                 </p>
               
                 <div>
-                <a className="w-44" href='/'>
+                <a className="w-[156px]" href='/'>
                   Contact Us
                 </a>
                 </div>
@@ -111,8 +111,8 @@ export default function Home() {
         </div>
         <div className="service_container">
           <div className="box">
-            <div className="img-box">
-              <img src="images/s1.png" className="img1" alt="" />
+            <div className="">
+            
             </div>
             <div className="detail-box">
               <h5>Engaging Simulations</h5>
@@ -122,9 +122,8 @@ export default function Home() {
             </div>
           </div>
           <div className="box">
-            <div className="img-box">
-             
-              <img src="images/s2.png" className="img1" alt="" />
+            <div className="">
+    
             </div>
             <div className="detail-box">
               <h5>Skill Development</h5>
@@ -134,8 +133,9 @@ export default function Home() {
             </div>
           </div>
           <div className="box">
-            <div className="img-box">
-              <img src="images/s3.png" className="img1" alt="" />
+            <div className="">
+              
+        
             </div>
             <div className="detail-box">
               <h5>Global Awareness</h5>
@@ -145,8 +145,8 @@ export default function Home() {
             </div>
           </div>
           <div className="box ">
-            <div className="img-box">
-              <img src="images/s4.png" className="img1" alt="" />
+            <div className="">
+            
             </div>
             <div className="detail-box">
               <h5>Networking Opportunities</h5>
@@ -164,7 +164,7 @@ export default function Home() {
     
     <section className="blog_section layout_padding">
       <div className="container">
-        <div className="heading_container">
+        <div className=" flex justify-center">
           <h2>News</h2>
           <img src="" alt="" />
         </div>

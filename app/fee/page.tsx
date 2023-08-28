@@ -45,7 +45,7 @@ export default function Home() {
     <link href="css/style.css" rel="stylesheet" />
 
     <link href="css/responsive.css" rel="stylesheet" />
-    <div className="hero_area">
+    <div className="hero-areaforfee">
       <header className="header_section">
         <div className="">
         <Navbar/>
@@ -56,18 +56,19 @@ export default function Home() {
       </div>
 
       <div className='flex justify-center'>
-        <div className="grid grid-cols-2 gap-4 place-items-center place-content-center h-56 pointer-events-none bg-blue-800/75 rounded-xl mx-4 pl-2 mt-2 md:mt-0 md:mx-0 md:pl-5">
+        <div className="grid grid-cols-2 gap-4 place-content-center h-56 pointer-events-none bg-blue-800/75 rounded-xl mx-4 pl-5 mt-2 py-[150px] md:py-[50px]">
           {fees.map((feez, i) =>{
             return(
-             <><div className='font-bold' key={i} >{feez.content}</div><div>{feez.fee}</div></> 
+             <><div className='font-bold ' key={i} >{feez.content}</div><div>{feez.fee}</div></> 
             )
           })}
         </div>
+
       </div>
     <div className='flex justify-center md:px-[200px] px-[30px] py-[50px]'>
           The fees include: First day welcome barbecue, lunch for three days (2nd, 3rd, and 4th days of the conference), snacks/drinks throughout the conference, and of course, conference giveaways such as the plaque-cards, pens, and notepads.
     </div>
-    <div className='flex justify-center md:px-[200px] px-[30px] py-[25px]'>
+    <div className='flex justify-center md:px-[200px] px-[30px] py-[25px] pb-[100px]'>
           Transportation is NOT included in the fee and the fee for shuttles will be communicated to the schools who wish to use them.
     </div>
     </div>

@@ -1,9 +1,12 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   color: #0c0c0c;
   background-color: #ffffff;
 }
 
+.deneme{
+  text-align: center;
+}
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -67,6 +70,20 @@ body {
   background-color: #eae6f5;
 }
 
+.hero-areaforfee{
+
+ 
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #eae6f5;
+}
+
 .sub_page .hero_area {
   height: auto;
 }
@@ -80,6 +97,7 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   padding: 7px 20px;
   margin: 10px 15px;
   color: #000000;
@@ -124,6 +142,7 @@ a:focus {
 }
 
 .navbar-brand {
+ 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,11 +157,15 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-size: 50px;
+ 
   font-weight: 700;
   color: #0f3986;
 }
-
+.navbar-sd {
+ font-size: 50px;
+  font-weight: 700;
+  color: #0f3986;
+}
 .custom_nav-container {
   z-index: 0;
 }
