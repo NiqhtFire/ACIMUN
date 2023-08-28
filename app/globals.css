@@ -246,11 +246,15 @@ body {
   color: rgb(88 199 250 / 0%);
   cursor: pointer;
   font-family: cursive;
+  top: 0;
+  transition: top ease-in-out 300ms;
 }
 
 .card:hover {
   color: rgb(88 199 250 / 100%);
   transition: color 1s;
+ 
+  top: -10px;
 }
 .card:hover:before, .card:hover:after {
   animation: spin 2.5s linear infinite;
@@ -258,7 +262,7 @@ body {
 }
 .card:hover::after{
   transition: all .4s ease-in-out;
-  transform: scale(1.01); 
+  
   animation: spin 2.5s linear infinite;
 }
 
@@ -274,7 +278,7 @@ body {
     left: -2%;
     background-image: linear-gradient(
    
-         #5ddcff, #3c67e3 43%, #4e00c2);
+         #5d60ff, #3c67e3 43%, #4e00c2);
    
     
 }
@@ -289,7 +293,7 @@ body {
   height: 105%;
   width: 120%;
   margin: 0 auto;
-  transform: scale(0.8);
+  transform: scale(0.6);
   filter: blur(calc(var(--card-height) / 6));
 
     opacity: 1;

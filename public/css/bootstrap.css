@@ -4171,8 +4171,9 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Cabin;
   display: inline-block;
+
   padding-top: 0.2rem;
   padding-bottom: 0.2;
   margin-right: 0.5rem;
@@ -4180,6 +4181,9 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
+
+
+
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;

@@ -60,14 +60,26 @@ body {
 .hero_area {
   height: 98vh;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background-color: #eae6f5;
+}
+
+.hero_area::before {
+  /*
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 100%;
+  background-image: url("https://www.acimun.com/wp-content/uploads/2022/11/BLAKEHALL-GECE.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+  filter: blur(4px);
+  z-index: -1; */
 }
 
 .hero-areaforfee{
