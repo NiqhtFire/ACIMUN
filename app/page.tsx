@@ -109,46 +109,46 @@ export default function Home() {
           
           
         </div>
-        <div className="service_container">
-          <div className="box">
+        <div className="service_container ">
+          <div className="box hover:scale-105">
             <div className="">
             
             </div>
-            <div className="detail-box hover:scale-105">
+            <div className="detail-box">
               <h5>Engaging Simulations</h5>
               <p>
               ACIMUN hosts engaging Model UN simulations mirroring UN proceedings. Delegates represent countries, negotiate global issues, and craft resolutions for complex problems.
               </p>
             </div>
           </div>
-          <div className="box">
+          <div className="box hover:scale-105">
             <div className="">
     
             </div>
-            <div className="detail-box hover:scale-105">
+            <div className="detail-box ">
               <h5>Skill Development</h5>
               <p>
               ACIMUN fosters growth in public speaking, negotiation, research, and critical analysis. It offers a nurturing space for members to develop confidence and skills within a challenging yet supportive setting.
               </p>
             </div>
           </div>
-          <div className="box">
+          <div className="box hover:scale-105">
             <div className="">
               
         
             </div>
-            <div className="detail-box hover:scale-105">
+            <div className="detail-box ">
               <h5>Global Awareness</h5>
               <p>
               ACIMUN opens a global window, immersing students in diverse perspectives and cultures. Exploring international issues, members grasp our interconnected global community's depth and complexity.
               </p>
             </div>
           </div>
-          <div className="box ">
+          <div className="box hover:scale-105 ">
             <div className="">
             
             </div>
-            <div className="detail-box hover:scale-105">
+            <div className="detail-box ">
               <h5>Networking Opportunities</h5>
               <p>
               As part of ACIMUN, students have the chance to interact with like-minded peers from various backgrounds. Through conferences, workshops, and events, members can establish valuable connections that may extend beyond their academic careers.
