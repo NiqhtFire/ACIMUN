@@ -62,11 +62,11 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #eae6f5;
+  
 }
 
 .hero_area::before {
-  /*
+
   content: "";
   position: absolute;
   top: 0;
@@ -79,7 +79,7 @@ body {
   background-size: cover;
   opacity: 50%;
   filter: blur(4px);
-  z-index: -1; */
+  z-index: -1; 
 }
 
 .hero-areaforfee{
