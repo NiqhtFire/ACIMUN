@@ -1,16 +1,10 @@
 import Navbar from '@/components/Navbar';
 import { Drawer } from '@mui/material';
-import Image from 'next/image'
-import Link from 'next/link'
 import { FaRegFile } from "react-icons/fa6";
 export default function Home() {
   return (
     <>
 
-   
-
-   
-   
     <meta name="keywords" content="mun muntürkiye munizmir muntr" />
     <meta name="description" content="Welcome to ACIMUN, the American Collegiate Institute Model United Nations, where diplomacy, debate, and global engagement come to life! At ACIMUN, we believe in fostering a dynamic environment that empowers students to explore and understand the intricacies of international relations, hone their public speaking skills, and cultivate a deeper appreciation for the diverse perspectives that shape our world." />
     <meta name="author" content="ACIMUN" />
@@ -33,8 +27,8 @@ export default function Home() {
 
     <link href="css/responsive.css" rel="stylesheet" />
     <div className="hero_area">
-      <Navbar />
- 
+      <Navbar/>
+   
       <section className=" slider_section ">
         <div className="container">
           <div className="">
@@ -42,19 +36,25 @@ export default function Home() {
               <div className="detail_box">
                 <div className='flex justify-evenly flex-col md:flex-row gap-4 md:gap-[200px]    '>
              
-                <div className='flex flex-col justify-center'>
-                  <h1>
+                <div className='flex flex-col text-center justify-center'>
+                  <span className='text-6xl my-[60px] '>
                   ACIMUN'24 
 
                   
-                </h1>
+                </span>
+                <span className='text-5xl italic'>
+                "Sustaining Democracy In Times of Turmoil"
+                </span>
+                <span className='text-2xl mt-2 mb-2'>
+                Izmir, Turkey
+                </span>
                 <p className='text-[20px]'>
                 ACIMUN'23 REGISTRATIONS ARE FINISHED! <br />
                  YOU'LL BE CONTACTED SOON
                 </p>
-              
+            
                 <div>
-                <a className="w-[156px]" href='/'>
+                <a className="text-center whitespace-nowrap" href='/'>
                   Contact Us
                 </a>
                 </div>
@@ -66,12 +66,7 @@ export default function Home() {
                
                  
 
-            <div className='flex justify-center'>
-            <div className="card mx-[10px] mt-4 md:mt-0 ">
-                <img src="https://www.acimun.com/wp-content/uploads/2022/10/WhatsApp-Image-2022-10-21-at-21.57.58.jpeg" alt="" />
-       
-        </div>
-            </div>
+            
               
                 
                 </div>

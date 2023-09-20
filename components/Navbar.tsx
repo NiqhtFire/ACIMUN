@@ -1,10 +1,11 @@
 "use client"
 import { Drawer } from '@mui/material';
+import { red } from '@mui/material/colors';
 import { link } from 'fs';
 import Link from 'next/link'
-import { useState } from 'react';
-
-
+import { useState, useEffect, useRef } from 'react';
+import "./Navbar.module.css";
+import { Router, useLocation } from 'react-router-dom';
 const navs = [
     {title: "Home", route: "/"},
     {title: "About", route: "/"},
@@ -14,121 +15,74 @@ const navs = [
     
 ]
 
+interface Props{
+  isBlacked?:boolean
+
+}
 
 
 
 
 
-
-const Navbar = ( ) => {
+const Navbar = ( props:Props) => {
     const [open, setOpen] = useState(false);
+    const navRef = useRef<HTMLDivElement>(null);
+
+    console.log("ads")
+    useEffect(() => {
+      console.log("adabs")
+      const listen = () => {
+        const nav = navRef.current;
+        console.log("adfasdsas", !!nav, document.body.scrollTop)
+        if (!nav) return;
+        if (document.documentElement.scrollTop > 40) {
+          nav.classList.add("black");
+        } else {
+          nav.classList.remove("black");
+        }
+      }
+      window.addEventListener("scroll", listen)
+      listen();
+      return () => {
+        window.removeEventListener("scroll", listen)
+      }
+    }, []);
+
     return (
-        <header className="bg-blue-900">
-        
-        <div className="md:mx-[60px]">
-        
-          <nav className="navbar  custom_nav-container flex justify-between  ">
-            <div>
-            <a className="navbar-brand gap-3" href="/">
+       <>
+    
+       <div className="responsive-bar">
+        <div className="logo">
+            <img src="http://www.mhf.org.au/media/zoo/images/yourlogohere_2cb8c31ab01096e7842d781ac311a776.png" alt="logo"/>
+            </div>
+            <div className="menu">
+            <h4>Menu</h4>
+            </div>
+        </div>
+		<nav ref={navRef} className={' justify-between w-full text-nowrap hidden md:flex' + (props.isBlacked ? ' blacked' : '') }>
+    <a className="navbar-brand gap-3" href="/">
               <div className=''>
-               <img className="object-scale-down h-[70px] w-[70px]"src="https://www.acimun.com/wp-content/uploads/2022/10/f68d6cb0-e8e8-4bbd-95c9-af49ed34eae6.png" alt="" />
+               <img className="object-scale-down h-[55px] w-[55px] min-h-[55px] min-w-[55px]" src="https://www.acimun.com/wp-content/uploads/2022/10/f68d6cb0-e8e8-4bbd-95c9-af49ed34eae6.png" alt="" />
               </div>
              
-              <div className='navbar-brand navbar-sd text-2xl]'>
+              <div className='navbar-brand navbar-sd text-2xl'>
                 <span>ACIMUN</span>
                
               </div>
               <span className='font-sans text-[30px] font-italic'>2024</span>
               
             </a>
-           
-            </div>
-           
-            <div>
-            <button
-              className="navbar-toggler md:hidden"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-             
-            >
-                <div id='menua' className='flex justify-start'>
-                <div id="menuToggle">
-                    <input type="checkbox" onChange={(e ) => { setOpen(e.target.checked) }} checked={open}/>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-    
-                </div>
-            
-                </div>
-               
-            </button>
-            </div>
-           
-            <div>
-            <Drawer
-      anchor= "right"
-      open={open}
-      onClose={() => {
-        setOpen(false);
-      }}
-    >
-            <div className='flex flex-col gap-4 py-2 px-4 text-lg'>
-                {navs.map((nav, i) => {
+
+         <ul className='md:ml-[50px] lg:ml-[520px]'>
+          
+         {navs.map((nav, i) => {
                         return(
-                            <Link key={i} href = {nav.route}>{nav.title}</Link>
+                          <li key={i}><Link href={nav.route}>{nav.title}</Link></li>
                         )
                 })}
-            </div>
-    </Drawer>
-            </div>
-            <div className=" md:block hidden  " id="navbarSupportedContent">
-              <div className="d-flex ml-auto flex-row flex-lg-row align-items-center ">
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                  <Link className="nav-link" href="/">
-                      {" "}
-                      Home
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" href="/">
-                      {" "}
-                      About
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/fee">
-                      {" "}
-                      Fees{" "}
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/">
-                      {" "}
-                      News{" "}
-                    </a>
-                  </li>
-
-                
-                  <li className="nav-item ">
-                    <a className="nav-link  " href="/register">
-                      Register{" "}
-                    </a>
-                  </li>
-       
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div className='flex flex-col bg-gray-500 h-[4px]'>
-        </div>
-      </header>
+            </ul>
+        </nav>
+       </>
     )
 
 

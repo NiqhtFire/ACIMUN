@@ -33,52 +33,11 @@ export default function Home() {
     />
    
     <link href="css/style.css" rel="stylesheet" />
+<div className='a'>
 
-    <link href="css/responsive.css" rel="stylesheet" />
-    <div className="hero_area">
-      <header className="header_section">
-        <div className="">
-          <Navbar/>
-        </div>
-      </header>
- 
-      <section className=" slider_section ">
-        <div className="container">
-          <div className="">
-            <div className=" ">
-              <div className="detail_box">
-                <div className='flex justify-center'>
-                <h1 className=''>
-                  ACIMUN'24 
-                </h1>
-                </div>
-                <div className='flex justify-center'>
-                <h1>
-                  Registrations
-                </h1>
-                </div>
-
-              <div className='flex justify-center'>
-                <p className=''>
-                ACIMUN'23 REGISTRATIONS ARE FINISHED! WAIT FOR ACIMUN'24
-                </p>
-              </div>
-              <div className='flex justify-center'>
-              <a href="/" className="">
-                  Have Questions?
-                </a>
-              </div>
-              
-              </div>
-              <a href="" className=""></a>
-          </div>
-          
-          </div>
-        </div>
-      </section>
-
-
-    </div>
+</div>
+    <Navbar isBlacked />
+    <div className='mt-5'></div>
     <iframe className="pt-[60px]" src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/7" style={{border:0,width:"100%"}} height="1402"></iframe>
       <script src="https://www.cognitoforms.com/f/iframe.js"></script>
     
