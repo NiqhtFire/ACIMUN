@@ -438,7 +438,7 @@ section.sec2{
       left: 0;
       padding: 5px 20px;
       box-sizing: border-box;
-      z-index: 1;
+      z-index: 11;
   }
   .responsive-bar .logo img{
       float: left;
@@ -450,7 +450,7 @@ section.sec2{
       margin: 0;
       padding: 0;
       line-height: 50px;
-      cursor: pointer;
+  
       text-transform: uppercase;
   }
   nav{

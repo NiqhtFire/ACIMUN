@@ -30,10 +30,10 @@ const Navbar = ( props:Props) => {
 
     console.log("ads")
     useEffect(() => {
-      console.log("adabs")
+   
       const listen = () => {
         const nav = navRef.current;
-        console.log("adfasdsas", !!nav, document.body.scrollTop)
+        
         if (!nav) return;
         if (document.documentElement.scrollTop > 40) {
           nav.classList.add("black");
@@ -50,14 +50,60 @@ const Navbar = ( props:Props) => {
 
     return (
        <>
-    
+     
        <div className="responsive-bar">
         <div className="logo">
-            <img src="http://www.mhf.org.au/media/zoo/images/yourlogohere_2cb8c31ab01096e7842d781ac311a776.png" alt="logo"/>
+           
             </div>
-            <div className="menu">
-            <h4>Menu</h4>
+            <div className="text-white text-right mt-2">
+            <h4>ACIMUN</h4>
             </div>
+        </div>
+
+
+
+
+        <div>
+        <button
+              className="navbar-toggler md:hidden responsive-bar "
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupporte dContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+             
+            >
+                <div id='menua' className='flex justify-start'>
+                <div id="menuToggle">
+                    <input type="checkbox" onChange={(e ) => { setOpen(e.target.checked) }} checked={open}/>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+    
+                </div>
+            
+                </div>
+               
+            </button>
+            </div>
+           
+            <div>
+            <Drawer
+      anchor= "right"
+      open={open}
+      onClose={() => {
+        setOpen(false);
+      }}
+    >
+            <div className='flex flex-col gap-4 py-2 px-4 text-lg'>
+                {navs.map((nav, i) => {
+                        return(
+                            <Link key={i} href = {nav.route}>{nav.title}</Link>
+                        )
+                })}
+            </div>
+    </Drawer>
         </div>
 		<nav ref={navRef} className={' justify-between w-full text-nowrap hidden md:flex' + (props.isBlacked ? ' blacked' : '') }>
     <a className="navbar-brand gap-3" href="/">
@@ -81,6 +127,7 @@ const Navbar = ( props:Props) => {
                         )
                 })}
             </ul>
+           
         </nav>
        </>
     )
