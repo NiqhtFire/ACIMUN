@@ -37,24 +37,24 @@ export default function Home() {
                 <div className='flex justify-evenly flex-col md:flex-row gap-4 md:gap-[200px]    '>
              
                 <div className='flex flex-col text-center justify-center'>
-                  <span className='text-6xl my-[60px] '>
+                  <span className='text-6xl my-[60px] fade-in-text '>
                   ACIMUN'24 
 
                   
                 </span>
-                <span className='text-5xl italic'>
+                <span className='text-5xl italic fade-in-text '>
                 "Sustaining Democracy in Times of Turmoil"
                 </span>
-                <span className='text-2xl mt-2 mb-2'>
+                <span className='text-2xl mt-2 mb-2 fade-in-text '>
                 Izmir, Turkey
                 </span>
-                <p className='text-[20px]'>
+                <p className='text-[20px] fade-in-text '>
                 ACIMUN'23 REGISTRATIONS ARE FINISHED! <br />
                  YOU'LL BE CONTACTED SOON
                 </p>
             
                 <div>
-                <a className="text-center whitespace-nowrap" href='/'>
+                <a className="text-center whitespace-nowrap fade-in-text " href='/'>
                   Contact Us
                 </a>
                 </div>
@@ -193,6 +193,7 @@ export default function Home() {
         </div>
       </div>
     </section>
+   
   
     <section className="contact_section layout_padding">
       <div className="container ">

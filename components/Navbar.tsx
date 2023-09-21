@@ -119,7 +119,7 @@ const Navbar = ( props:Props) => {
               
             </a>
 
-         <ul className='md:ml-[50px] lg:ml-[520px]'>
+         <ul className='md:ml-[50px]  sm:ml-[20px] lg:ml-[520px]'>
           
          {navs.map((nav, i) => {
                         return(

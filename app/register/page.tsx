@@ -18,6 +18,7 @@ export default function Home() {
     <meta name="description" content="Welcome to ACIMUN, the American Collegiate Institute Model United Nations, where diplomacy, debate, and global engagement come to life! At ACIMUN, we believe in fostering a dynamic environment that empowers students to explore and understand the intricacies of international relations, hone their public speaking skills, and cultivate a deeper appreciation for the diverse perspectives that shape our world." />
     <meta name="author" content="ACIMUN" />
     <title>ACIMUN</title>
+    
   
     <link
       rel="stylesheet"

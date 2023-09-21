@@ -52,12 +52,12 @@ export default function Home() {
         <div className='mt-5'></div>
         </div>
       </header>
-      <div className='flex justify-around text-4xl font-bold  my-5'>
+      <div className='flex justify-around text-4xl font-bold  my-5 mx-2'>
         ACIMUN&apos;2024 Conference Fees Are As Follows
       </div>
 
       <div className='flex justify-center'>
-        <div className="grid grid-cols-2 gap-4 place-content-center h-56 pointer-events-none bgfee rounded-xl mx-4 pl-5 mt-2 py-[150px] md:py-[50px]">
+        <div className="grid grid-cols-2 gap-4 place-content-center h-56 pointer-events-none bgfee rounded-xl mx-4 pl-5 mt-2 py-[200px] md:py-[50px] ">
           {fees.map((feez, i) =>{
             return(
              <><div className='font-bold ' key={i} >{feez.content}</div><div>{feez.fee}</div></> 
