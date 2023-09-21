@@ -43,7 +43,7 @@ export default function Home() {
                   
                 </span>
                 <span className='text-5xl italic'>
-                "Sustaining Democracy In Times of Turmoil"
+                "Sustaining Democracy in Times of Turmoil"
                 </span>
                 <span className='text-2xl mt-2 mb-2'>
                 Izmir, Turkey

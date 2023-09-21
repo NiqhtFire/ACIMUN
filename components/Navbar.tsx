@@ -4,7 +4,7 @@ import { red } from '@mui/material/colors';
 import { link } from 'fs';
 import Link from 'next/link'
 import { useState, useEffect, useRef } from 'react';
-import "./Navbar.module.css";
+
 import { Router, useLocation } from 'react-router-dom';
 const navs = [
     {title: "Home", route: "/"},
