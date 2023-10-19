@@ -16,17 +16,7 @@ export default function Home() {
   return (
     <>
 
-    <meta charSet="utf-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
    
-    <meta name="keywords" content="mun muntürkiye munizmir muntr" />
-    <meta name="description" content="Welcome to ACIMUN, the American Collegiate Institute Model United Nations, where diplomacy, debate, and global engagement come to life! At ACIMUN, we believe in fostering a dynamic environment that empowers students to explore and understand the intricacies of international relations, hone their public speaking skills, and cultivate a deeper appreciation for the diverse perspectives that shape our world." />
-    <meta name="author" content="ACIMUN" />
     <title>ACIMUN</title>
   
     <link
@@ -35,44 +25,38 @@ export default function Home() {
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
     />
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
   
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
       rel="stylesheet"
     />
    
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
 
-    <link href="css/responsive.css" rel="stylesheet" />
-    <div className="hero-areaforfee">
-      <header className="header_section">
-        <div className="">
-        <Navbar isBlacked/>
-        <div className='mt-5'></div>
-        </div>
-      </header>
-      <div className='flex justify-around text-4xl font-bold  my-5 mx-2'>
-        ACIMUN&apos;2024 Conference Fees Are As Follows
-      </div>
+    <link href="/css/responsive.css" rel="stylesheet" />
+   
+    <Navbar isBlacked/>
+    <div className='flex justify-center'>
+    <div className='flex shadow-2xl rounded-xl flex-col justify-between mt-[150px] px-[150px] py-[100px]  '>
+      
+      <div className='text-black text-4xl'>Conference Details</div>  
+     
+ 
+      <Link href="/agenda" className='conferencedetails pt-3 text-[25px]'> Agenda </Link> 
+      <div className='flex w-[100px] h-[2px] bg-gray-500 '></div>
+      <Link href="/aboutmun" className='conferencedetails pt-4 text-[25px]'>About Us</Link>   
+      <div className='flex w-[100px] h-[2px] bg-gray-500'></div>
+      <Link href="/theme" className='conferencedetails pt-4 text-[25px]'>Theme</Link> 
+      <div className='flex w-[100px] h-[2px] bg-gray-500'></div> 
+      <Link href="/provschedule" className='conferencedetails pt-4 text-[25px]'>Provosional Schedule</Link> 
+      <div className='flex w-[240px] h-[2px] bg-gray-500'></div> 
+      
 
-      <div className='flex justify-center'>
-        <div className="grid grid-cols-2 gap-4 place-content-center h-56 pointer-events-none bgfee rounded-xl mx-4 pl-5 mt-2 py-[200px] md:py-[50px] ">
-          {fees.map((feez, i) =>{
-            return(
-             <><div className='font-bold ' key={i} >{feez.content}</div><div>{feez.fee}</div></> 
-            )
-          })}
-        </div>
-
-      </div>
-    <div className='flex justify-center md:px-[200px] px-[30px] py-[50px]'>
-          The fees include: First day welcome barbecue, lunch for three days (2nd, 3rd, and 4th days of the conference), snacks/drinks throughout the conference, and of course, conference giveaways such as the plaque-cards, pens, and notepads.
+     
+    </div>  
     </div>
-    <div className='flex justify-center md:px-[200px] px-[30px] py-[25px] pb-[100px]'>
-          Transportation is NOT included in the fee and the fee for shuttles will be communicated to the schools who wish to use them.
-    </div>
-    </div>
+   
   
     
     

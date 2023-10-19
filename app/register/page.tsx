@@ -1,8 +1,22 @@
+"use client";
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaRegFile } from "react-icons/fa6";
 import Navbar from '../../components/Navbar';
+
+import { SetStateAction, useState } from 'react';
+import React from 'react';
 export default function Home() {
+  const [likes, setLikes] = React.useState(0);
+
+  const [selectedValue, setSelectedValue] = useState('');
+
+  const handleClick = (e:any) => {
+    setSelectedValue(e.target.value);
+  };
+
+  
+
   return (
     <>
 
@@ -26,21 +40,56 @@ export default function Home() {
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
     />
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
   
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
       rel="stylesheet"
     />
    
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
 <div className='a'>
 
 </div>
     <Navbar isBlacked />
     <div className='mt-5'></div>
-    <iframe className="pt-[60px]" src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/7" style={{border:0,width:"100%"}} height="1402"></iframe>
-      <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+    <section>
+<div className='flex justify-center mt-[100px]'>
+<div className='flex items-center flex-col'>
+  <div className='pb-4 text-2xl'>Form Selection</div>
+        <select name="forms" id="form" onChange={handleClick}>
+        <option value="">Select a Form</option>
+        <option value="1">Form 1</option>
+        <option value="2">Form 2</option>
+        <option value="3">Form 3</option>
+        <option value="4">Form 4</option>
+
+
+
+
+        </select>
+    </div>
+</div>
+</section>
+{ selectedValue === '1'&&(
+      <div>
+        <iframe src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/6" style={{border:0,width:"100%"}} height="2765"></iframe>
+        <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+      </div>
+  )}
+
+{selectedValue ==='2' && (
+    <div>
+      <iframe className="pt-[60px]" src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/7" style={{border:0,width:"100%"}} height="1402"></iframe>
+    <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+    </div>)
+ 
+  }
+
+
+
+
+
     
     
    

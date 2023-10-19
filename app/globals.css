@@ -391,12 +391,18 @@ nav > ul{
 nav > ul > li{
   list-style: none;
   display: inline-block;
+  
 }
 nav > ul > li > a:hover{
-  background: #52A0C6;
-  color: #000;
+  
+  border-bottom-width: 2px;
+  border-bottom-color: #fff;
+  color: #fff !important;
 }
 nav > ul > li > a{
+  border-bottom-color: transparent;
+  border-bottom-width: 2px;
+  transition: ease-in-out;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -514,7 +520,13 @@ section.sec2{
 }
 
 
-
+.conferencedetails{
+  color: #00000081 !important;
+  
+}
+.conferencedetails:hover{
+  color: #a7a7a7 !important;
+}
 
 
 

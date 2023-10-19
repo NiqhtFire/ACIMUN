@@ -8,10 +8,10 @@ import { useState, useEffect, useRef } from 'react';
 import { Router, useLocation } from 'react-router-dom';
 const navs = [
     {title: "Home", route: "/"},
-    {title: "About", route: "/"},
-    {title: "Fees", route: "/fee"},
-    {title: "News", route: "/news"},
+    {title: "Venue", route: "/"},
+    {title: "Conference Details", route: "/fee"},
     {title: "Register", route: "/register"},
+  
     
 ]
 
@@ -108,18 +108,18 @@ const Navbar = ( props:Props) => {
 		<nav ref={navRef} className={' justify-between w-full text-nowrap hidden md:flex' + (props.isBlacked ? ' blacked' : '') }>
     <a className="navbar-brand gap-3" href="/">
               <div className=''>
-               <img className="object-scale-down h-[55px] w-[55px] min-h-[55px] min-w-[55px]" src="https://www.acimun.com/wp-content/uploads/2022/10/f68d6cb0-e8e8-4bbd-95c9-af49ed34eae6.png" alt="" />
+               <img className="object-scale-down h-[55px] w-[55px] min-h-[55px] min-w-[55px]" src="/images/munlogo.png" alt="" />
               </div>
              
               <div className='navbar-brand navbar-sd text-2xl'>
-                <span>ACIMUN</span>
+                <span>ACIMUN &apos;24</span>
                
               </div>
-              <span className='font-sans text-[30px] font-italic'>2024</span>
+           
               
             </a>
 
-         <ul className='md:ml-[50px]  sm:ml-[20px] lg:ml-[520px]'>
+         <ul className='md:ml-[50px]  sm:ml-[20px] lg:ml-[460px]'>
           
          {navs.map((nav, i) => {
                         return(

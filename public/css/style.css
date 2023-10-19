@@ -75,7 +75,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-   background-image: url("https://www.acimun.com/wp-content/uploads/2022/11/BLAKEHALL-GECE.jpg"); 
+   background-image: url("/images/BLAKEHALL-GECE.jpg"); 
   background-color: #4848ec;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #eae6f5;
+  background-color: #9b94ae;
 }
 
 .sub_page .hero_area {
@@ -740,3 +740,35 @@ a:focus {
 
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+.hero_area_about {
+  height: 98vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom-color: #fff;
+  border-bottom-width: 10px;
+  
+}
+
+.hero_area_about::before {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background-image: url("/images/BLAKEHALL-GECE.jpg"); 
+  background-color: #4848ec;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+  /*90%; filter: blur(2.5px); */
+  z-index: -1;
+}

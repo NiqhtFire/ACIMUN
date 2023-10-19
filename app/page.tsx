@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import { Drawer } from '@mui/material';
 import { FaRegFile } from "react-icons/fa6";
+
 export default function Home() {
   return (
     <>
@@ -16,16 +17,16 @@ export default function Home() {
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
     />
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
   
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
       rel="stylesheet"
     />
    
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
 
-    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="/css/responsive.css" rel="stylesheet" />
     <div className="hero_area">
       <Navbar/>
    
@@ -53,11 +54,7 @@ export default function Home() {
                  YOU'LL BE CONTACTED SOON
                 </p>
             
-                <div>
-                <a className="text-center whitespace-nowrap fade-in-text " href='/'>
-                  Contact Us
-                </a>
-                </div>
+               
              
                 </div>
 
@@ -167,7 +164,7 @@ export default function Home() {
           <div className="col-md-6">
             <div className="box">
               <div className="img-box">
-                <img src="https://www.acimun.com/wp-content/uploads/2022/10/57-574316_karsiyaka-izmir-turkey-turkey-by-stefan-king-sk-scaled.jpeg" alt="" />
+                <img src="/images/turkeyizmir.jpeg" alt="" />
               </div>
               <div className="detail-box">
                 <h5>Registrations</h5>
@@ -180,7 +177,7 @@ export default function Home() {
           <div className="col-md-6">
             <div className="box">
               <div className="img-box">
-                <img src="https://www.acimun.com/wp-content/uploads/2022/11/BLAKEHALL-GECE.jpg" alt="" />
+                <img src="/images/BLAKEHALL-GECE.jpg" alt="" />
               </div>
               <div className="detail-box">
                 <h5>ACCOMMODATION</h5>
@@ -251,20 +248,20 @@ export default function Home() {
           <div className="row">
             <div className="col-md-4">
               <a href="">
-                <img src="images/location-white.png" alt="" />
+                <img src="/images/location-white.png" alt="" />
                 <span>
 Göztepe, İnönü Cd. No:476, 35290 Konak/İzmir</span>
               </a>
             </div>
             <div className="col-md-4">
               <a href="">
-                <img src="images/telephone-white.png" alt="" />
+                <img src="/images/telephone-white.png" alt="" />
                 <span>Call : (0232) 355 05 55</span>
               </a>
             </div>
             <div className="col-md-4">
               <a href="">
-                <img src="images/envelope-white.png" alt="" />
+                <img src="/images/envelope-white.png" alt="" />
                 <span>
 secretariat@my.aci.k12.tr</span>
               </a>
@@ -279,7 +276,7 @@ secretariat@my.aci.k12.tr</span>
              
               <div>
                 <a href="">
-                  <img src="images/instagram.png" alt="" />
+                  <img src="/images/instagram.png" alt="" />
                 </a>
               </div>
             </div>
