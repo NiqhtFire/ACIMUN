@@ -8,7 +8,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Router, useLocation } from 'react-router-dom';
 const navs = [
     {title: "Home", route: "/"},
-    {title: "Venue", route: "/"},
+    {title: "Venue", route: "/venue"},
     {title: "Conference Details", route: "/fee"},
     {title: "Register", route: "/register"},
   
@@ -59,9 +59,12 @@ const Navbar = ( props:Props) => {
             <h4>ACIMUN</h4>
             </div>
         </div>
+        <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-
-
+      
 
         <div>
         <button

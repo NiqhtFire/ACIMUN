@@ -20,10 +20,10 @@ export default function Home() {
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
   
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
       rel="stylesheet"
     />
-   
+   <link rel="shortcut icon" type="x-icon" href="images/munlogo.png" />
     <link href="/css/style.css" rel="stylesheet" />
 
     <link href="/css/responsive.css" rel="stylesheet" />

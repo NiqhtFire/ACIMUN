@@ -746,7 +746,7 @@ a:focus {
 
 
 .hero_area_about {
-  height: 98vh;
+  height: 78vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -763,12 +763,77 @@ a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-   background-image: url("/images/BLAKEHALL-GECE.jpg"); 
+   background-image: url("/images/aboutimg.jpg"); 
   background-color: #4848ec;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
+  filter: brightness(50%);
   /*90%; filter: blur(2.5px); */
   z-index: -1;
 }
+
+
+
+
+.hero_area_prov {
+  height: 78vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom-color: #fff;
+  border-bottom-width: 10px;
+  
+}
+
+.hero_area_prov::before {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background-image: url("/images/ig2.png"); 
+  background-color: #4848ec;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+  filter: blur(2.5px); 
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+
+
+.hero_area_venue {
+  height: 78vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom-color: #fff;
+  border-bottom-width: 10px;
+  
+}
+
+.hero_area_venue::before {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background-image: url("/images/sah.png"); 
+  background-color: #4848ec;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+  filter: brightness(50%);
+  /*90%; filter: blur(2.5px); */
+  z-index: -1;
+}
+

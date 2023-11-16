@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="shortcut icon" type="x-icon" href="images/munlogo.png" />
         <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' />
       </head>
       <body className={inter.className}>{children}</body>

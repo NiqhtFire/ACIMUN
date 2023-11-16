@@ -28,7 +28,7 @@ export default function Home() {
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
   
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
       rel="stylesheet"
     />
    
@@ -43,8 +43,8 @@ export default function Home() {
       <div className='text-black text-4xl'>Conference Details</div>  
      
  
-      <Link href="/agenda" className='conferencedetails pt-3 text-[25px]'> Agenda </Link> 
-      <div className='flex w-[100px] h-[2px] bg-gray-500 '></div>
+  
+      
       <Link href="/aboutmun" className='conferencedetails pt-4 text-[25px]'>About Us</Link>   
       <div className='flex w-[100px] h-[2px] bg-gray-500'></div>
       <Link href="/theme" className='conferencedetails pt-4 text-[25px]'>Theme</Link> 

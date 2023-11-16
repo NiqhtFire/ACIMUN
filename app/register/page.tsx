@@ -43,7 +43,7 @@ export default function Home() {
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
   
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
       rel="stylesheet"
     />
    

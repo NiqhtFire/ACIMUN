@@ -6,7 +6,7 @@
 
 @layer base {
   * {
-    font-family: Cabin !important; 
+    font-family: 'Raleway', sans-serif ; 
   }
 }
 
@@ -332,7 +332,7 @@ body {
 a {
   color: #212534;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif ; 
   font-weight: bold;
  
 }

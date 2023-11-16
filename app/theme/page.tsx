@@ -23,7 +23,7 @@ export default function Home() {
     <link href="/css/style.css" rel="stylesheet" />
 
     <link href="/css/responsive.css" rel="stylesheet" />
-    <div className="hero_area_prov">
+    <div className="hero_area_about">
       <Navbar/>
    
       <section className=" slider_section ">
@@ -34,8 +34,8 @@ export default function Home() {
                 <div className='flex justify-evenly flex-col md:flex-row gap-4 md:gap-[200px]    '>
              
                 <div className='flex flex-col text-center justify-center'>
-                  <span className=' text-[85px] md:text-[100px] my-[60px] fade-in-text '>
-                  Provosional Schedule
+                  <span className='text-[100px] my-[60px] fade-in-text '>
+                  Theme 
 
                   
                 </span>
@@ -78,67 +78,9 @@ export default function Home() {
    
     </div>
     <section>
-    <div className='flex justify-center'>
- <div className='grid  gird-cols-1 px-4 md:px-0 md:grid-cols-2 gap-x-[120px] gap-y-[100px] py-5'>
-
-            <div className='flex flex-col shadow-xl rounded-xl pt-4 px-5 justify-center'>
-                <div>Thursday</div>
-                <div>15.00 - 16.00 Registration/Hatay Entrance</div>
-                <div>15.15 - 15.45 StOff Workshop/B-1</div>
-                <div>16.00 - 17.00 Committees in Session</div>
-                <div>17.00 - 18.30 Opening Ceremony/Blake Auditorium</div>
-                <div>18.30 - 20.00 Barbecue/Co-op</div>
-                <div>20.30 Buses Leave</div>
-
-            </div>
-            <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 justify-center'>
-                <div>Friday</div>
-                <div>09.00 - 09.30 StOff Meeting/B1</div>
-                <div>09.30 - 12.00 All Committees in Session</div>
-                <div>12.00 - 13.30 Lunch/Cafeteria</div>
-                <div>13.45 - 18.00 Approval Panel Open</div>
-                <div>13.45 - 15.25 All Committees in Session</div>
-                <div>15.25 - 15.35 Break</div>
-                <div>15.35 - 17.30 All Committees in Session</div>
-                <div>17.30 - 18.00 StOff Debriefing </div>
-                <div>18.00 Buses Leave</div>
-            </div>
-
-            <div className='flex flex-col shadow-xl rounded-xl px-5  pb-4 justify-center'>
-                <div>Saturday</div>
-              <div>09.00 - 09.30 StOff Meeting/B1</div>
-              <div>09.40 - 12.00 All Committees in Session</div>
-              <div>10.00 - 17.30 Approval Panel Open</div>
-              <div>12.00 - 13.30 Lunch/Cafeteria</div>
-              <div>13.45 - 15.25 All Committees in Session</div>
-              <div>15.25 - 15.35 Break</div>
-              <div>15.35 - 17.30 All Committees in Session</div>
-              <div>17.30 - 18.00 StOff Debriefing</div>
-              <div>18.00 Buses Leave</div>
-            </div>
-
-
-            <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 justify-center'>
-            <div>Sunday</div>
-              <div>09.00 - 09.30 StOff Meeting/B1</div>
-              <div>09.30 - 09.40 Break</div>
-              <div>09.40 - 12.00 All Committees in Session</div>
-              <div>10.00 - 17.30 Approval Panel Open</div>
-              <div>12.00 - 13.30 Lunch/Cafeteria</div>
-              <div>13.30 - 16.30 ECOSOC, SC, SDC1, SDC2, SPC1, SPC2 and ICJ in Session</div>
-              <div>13.30 - 16.30 GA Plenary Session/Blake Auditorium</div>
-              <div>16.45 - 18.00 Closing Ceremony </div>
-              <div>18.30 Buses Leave</div>
-            </div>
-            
-
-     </div>
-
-    </div>
-    
-     
-     
-
+       <div className='flex justify-center mt-5 mb-5'>
+        <div className='text-2xl'>To be announced</div>
+       </div>
     </section>
     
     
