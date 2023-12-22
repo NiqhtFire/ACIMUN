@@ -78,8 +78,8 @@ export default function Home() {
    
     </div>
     <section>
-       <div className='flex justify-center mt-5 mb-5'>
-        <div className='text-2xl'>To be announced</div>
+       <div className='flex justify-center my-[150px] '>
+        <div className='text-4xl font-italic'>Promoting Ethical and Transparent Progress in Global Entities</div>
        </div>
     </section>
     

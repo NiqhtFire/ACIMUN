@@ -60,9 +60,11 @@ export default function Home() {
         <select name="forms" id="form" onChange={handleClick}>
         <option value="">Select a Form</option>
         <option value="1">Form 1</option>
-        <option value="2">Form 2</option>
-        <option value="3">Form 3</option>
-        <option value="4">Form 4</option>
+        <option value="2">Stoff</option>
+        <option value="3">AP</option>
+        <option value="4">ICJ</option>
+        <option value="5">French Forum</option>
+        <option value="6">Press Team</option>
 
 
 
@@ -80,12 +82,42 @@ export default function Home() {
 
 {selectedValue ==='2' && (
     <div>
-      <iframe className="pt-[60px]" src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/7" style={{border:0,width:"100%"}} height="1402"></iframe>
-    <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+      <iframe src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/4" style={{border:0,width:"100%"}} height="2765"></iframe>
+<script src="https://www.cognitoforms.com/f/iframe.js"></script>
     </div>)
  
   }
+  {selectedValue ==='3' && (
+    <div>
+   <iframe src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/8" style={{border:0,width:"100%"}} height="2765"></iframe>
+<script src="https://www.cognitoforms.com/f/iframe.js"></script>
+    </div>)
+ 
+  }
+  {selectedValue ==='4' && (
+    <div>
+ <iframe src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/5" style={{border:0,width:"100%"}} height="2765"></iframe>
+<script src="https://www.cognitoforms.com/f/iframe.js"></script>
 
+    </div>)
+ 
+  }
+  {selectedValue ==='5' && (
+    <div>
+ <iframe src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/7" style={{border:0,width:"100%"}} height="2765"></iframe>
+<script src="https://www.cognitoforms.com/f/iframe.js"></script>
+
+    </div>)
+ 
+  }
+  {selectedValue ==='6' && (
+    <div>
+ <iframe src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/1"  style={{border:0,width:"100%"}} height="2765"></iframe>
+<script src="https://www.cognitoforms.com/f/iframe.js"></script>
+
+    </div>)
+ 
+  }
 
 
 

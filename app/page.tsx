@@ -44,14 +44,14 @@ export default function Home() {
                   
                 </span>
                 <span className='text-5xl italic fade-in-text '>
-                "Sustaining Democracy in Times of Turmoil"
+                "Promoting Ethical and Transparent Progress in Global Entities"
                 </span>
                 <span className='text-2xl mt-2 mb-2 fade-in-text '>
                 Izmir, Turkey
                 </span>
                 <p className='text-[20px] fade-in-text '>
-                ACIMUN'23 REGISTRATIONS ARE FINISHED! <br />
-                 YOU'LL BE CONTACTED SOON
+                ACIMUN'24 REGISTRATIONS ARE OPEN NOW! <br />
+                 REGISTER BEFORE THE DEADLINE
                 </p>
             
                

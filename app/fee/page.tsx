@@ -49,8 +49,8 @@ export default function Home() {
       <div className='flex w-[100px] h-[2px] bg-gray-500'></div>
       <Link href="/theme" className='conferencedetails pt-4 text-[25px]'>Theme</Link> 
       <div className='flex w-[100px] h-[2px] bg-gray-500'></div> 
-      <Link href="/provschedule" className='conferencedetails pt-4 text-[25px]'>Provosional Schedule</Link> 
-      <div className='flex w-[240px] h-[2px] bg-gray-500'></div> 
+    { /* <Link href="/provschedule" className='conferencedetails pt-4 text-[25px]'>Provosional Schedule</Link> 
+      <div className='flex w-[240px] h-[2px] bg-gray-500'></div> */}
       
 
      
