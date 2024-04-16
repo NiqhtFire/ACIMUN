@@ -9,7 +9,7 @@ import { Router, useLocation } from 'react-router-dom';
 const navs = [
     {title: "Home", route: "/"},
     {title: "Venue", route: "/venue"},
-    {title: "Conference Details", route: "/fee"},
+    {title: "Conference Details", route: "/menu"},
     {title: "Register", route: "/register"},
   
     

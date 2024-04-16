@@ -23,7 +23,7 @@ export default function Home() {
     <link href="/css/style.css" rel="stylesheet" />
 
     <link href="/css/responsive.css" rel="stylesheet" />
-    <div className="hero_area_prov">
+    <div className="hero_area_agend">
       <Navbar/>
    
       <section className=" slider_section ">
