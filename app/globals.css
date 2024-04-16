@@ -39,6 +39,11 @@ body {
 
 
 
+@media only screen and (max-width: 1250px) {
+  .maxwidth {
+    margin-left: 135px;
+  }
+}
 
 
 

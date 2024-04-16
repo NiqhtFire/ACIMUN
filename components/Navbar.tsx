@@ -68,7 +68,7 @@ const Navbar = ( props:Props) => {
 
         <div>
         <button
-              className="navbar-toggler md:hidden responsive-bar "
+              className="navbar-toggler lg:hidden responsive-bar "
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -122,7 +122,7 @@ const Navbar = ( props:Props) => {
               
             </a>
 
-         <ul className='md:ml-[50px]  sm:ml-[20px] lg:ml-[460px]'>
+         <ul className='maxwidth ml-[460px]'>
           
          {navs.map((nav, i) => {
                         return(

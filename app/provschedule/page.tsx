@@ -79,60 +79,64 @@ export default function Home() {
     </div>
     <section>
     <div className='flex justify-center'>
- <div className='grid  gird-cols-1 px-4 md:px-0 md:grid-cols-2 gap-x-[120px] gap-y-[100px] py-5'>
+    <div className='grid grid-cols-1 px-4 md:px-0 md:grid-cols-2 gap-x-[120px] gap-y-[100px] py-5'>
 
-            <div className='flex flex-col shadow-xl rounded-xl pt-4 px-5 justify-center'>
-                <div>Thursday</div>
-                <div>15.00 - 16.00 Registration/Hatay Entrance</div>
-                <div>15.15 - 15.45 StOff Workshop/B-1</div>
-                <div>16.00 - 17.00 Committees in Session</div>
-                <div>17.00 - 18.30 Opening Ceremony/Blake Auditorium</div>
-                <div>18.30 - 20.00 Barbecue/Co-op</div>
-                <div>20.30 Buses Leave</div>
+<div className='flex flex-col shadow-xl rounded-xl pt-4 px-5 justify-center'>
+    <div>THURSDAY, April 18</div>
+    <div>14.00 Hatay Gate Opens</div>
+    <div>14.00 - 15.00 Registration (Hatay Gate)</div>
+    <div>14.30 - 15.00 StOff Briefing - Beacon 1</div>
+    <div>14.30 - 15.00 Press Briefing - Beacon 2</div>
+    <div>15.00 - 15.45 Opening Ceremony (Blake Auditorium)</div>
+    <div>15.45 - 16.30 Keynote Speaker (Blake Auditorium)</div>
+    <div>16.30 - 16.40 Break</div>
+    <div>16.30 - 18.15 Committees in session</div>
+    <div>18.15 - 18.30 StOff Debriefing - Beacon 1</div>
+    <div>18.30 - 19.30 Welcome Dinner</div>
+    <div className='pb-3'>19.30 Buses Leave</div>
+</div>
 
-            </div>
-            <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 justify-center'>
-                <div>Friday</div>
-                <div>09.00 - 09.30 StOff Meeting/B1</div>
-                <div>09.30 - 12.00 All Committees in Session</div>
-                <div>12.00 - 13.30 Lunch/Cafeteria</div>
-                <div>13.45 - 18.00 Approval Panel Open</div>
-                <div>13.45 - 15.25 All Committees in Session</div>
-                <div>15.25 - 15.35 Break</div>
-                <div>15.35 - 17.30 All Committees in Session</div>
-                <div>17.30 - 18.00 StOff Debriefing </div>
-                <div>18.00 Buses Leave</div>
-            </div>
+<div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 justify-center'>
+    <div>FRIDAY, April 19</div>
+    <div>8.30 - 9.00 StOff Briefing - Beacon 1</div>
+    <div>8.30 - 9.00 Press Briefing - Beacon 2</div>
+    <div>9.00 - 17.00 All Committees in Session</div>
+    <div>9.30 - 17.00 Approval Panel Open</div>
+    <div>12.00 - 12.45 GA1-2-3 and SDC Lunch</div>
+    <div>12.45 - 13.30 GA4-5, ICJ and SC Lunch</div>
+    <div>15.00 - 15.15 Break</div>
+    <div>17.00 - 17.30 StOff Debriefing - Beacon 1</div>
+    <div>17.30 Buses Leave</div>
+</div>
 
-            <div className='flex flex-col shadow-xl rounded-xl px-5  pb-4 justify-center'>
-                <div>Saturday</div>
-              <div>09.00 - 09.30 StOff Meeting/B1</div>
-              <div>09.40 - 12.00 All Committees in Session</div>
-              <div>10.00 - 17.30 Approval Panel Open</div>
-              <div>12.00 - 13.30 Lunch/Cafeteria</div>
-              <div>13.45 - 15.25 All Committees in Session</div>
-              <div>15.25 - 15.35 Break</div>
-              <div>15.35 - 17.30 All Committees in Session</div>
-              <div>17.30 - 18.00 StOff Debriefing</div>
-              <div>18.00 Buses Leave</div>
-            </div>
+<div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 justify-center'>
+    <div>SATURDAY, April 20</div>
+    <div>8.30 - 9.00 StOff Briefing - Beacon 1</div>
+    <div>8.30 - 9.00 Press Briefing - Beacon 2</div>
+    <div>9.00 - 17.30 All Committees in Session</div>
+    <div>9.30 - 17.00 Approval Panel Open</div>
+    <div>12.00 - 12.45 GA1-2-3 and SDC Lunch</div>
+    <div>12.45 - 13.30 GA4-5, ICJ and SC Lunch</div>
+    <div>15.00 - 15.15 Break</div>
+    <div>17.00 - 17.30 StOff Debriefing - Beacon 1</div>
+    <div>17.30 Buses Leave</div>
+</div>
 
+<div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 justify-center'>
+    <div>SUNDAY, April 21</div>
+    <div>8.30 - 9.00 StOff Briefing - Beacon 1</div>
+    <div>9.00 - 10.15 GA Committees in Session</div>
+    <div>9.00 - 15.30 ECOSOC, SC, SDC, ICJ, in session</div>
+    <div>10.30 - 12.00 Plenary Session (Blake Auditorium)</div>
+    <div>12.00 - 12.45 GA Committees Lunch</div>
+    <div>12.45 - 13.30 ECOSOC, SC, SDC, ICJ, Lunch</div>
+    <div>12.45 - 14.15 Plenary Session (Blake Auditorium)</div>
+    <div>14.35 - 16.00 Closing Ceremony (Blake Auditorium)</div>
+    <div>16.15 Buses Leave</div>
+</div>
 
-            <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 justify-center'>
-            <div>Sunday</div>
-              <div>09.00 - 09.30 StOff Meeting/B1</div>
-              <div>09.30 - 09.40 Break</div>
-              <div>09.40 - 12.00 All Committees in Session</div>
-              <div>10.00 - 17.30 Approval Panel Open</div>
-              <div>12.00 - 13.30 Lunch/Cafeteria</div>
-              <div>13.30 - 16.30 ECOSOC, SC, SDC1, SDC2, SPC1, SPC2 and ICJ in Session</div>
-              <div>13.30 - 16.30 GA Plenary Session/Blake Auditorium</div>
-              <div>16.45 - 18.00 Closing Ceremony </div>
-              <div>18.30 Buses Leave</div>
-            </div>
-            
+</div>
 
-     </div>
 
     </div>
     

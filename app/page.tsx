@@ -169,7 +169,7 @@ export default function Home() {
               <div className="detail-box">
                 <h5>Registrations</h5>
                 <p>
-                ACIMUN'23 REGISTRATIONS ARE FINISHED! YOU'LL BE CONTACTED SOON
+                ACIMUN'24 REGISTRATIONS ARE OPEN!
                 </p>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function Home() {
               <div className="detail-box">
                 <h5>ACCOMMODATION</h5>
                 <p>
-                ACCOMMODATION DETAILS WILL BE PUSBLISHED
+                FOR ACCOMMODATION INFORMATION secretariat@my.aci.k12.tr
                 </p>
               </div>
             </div>
