@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import { Drawer } from '@mui/material';
+import Link from 'next/link';
 import { FaRegFile } from "react-icons/fa6";
 
 export default function Home() {
@@ -86,13 +87,14 @@ export default function Home() {
         <ul>
             <li>Redirecting military spending for socio-economic development</li>
             <li>Applying sustainable strategies to prevent resource-related conflicts</li>
-            <li>The question of non-proliferating Weapons of Mass Destruction (WMDs)</li>
+            <a href='/files/GA1_3.pdf/' download="GA1_3" target="_blank" rel="noopener noreferrer" >The question of non-proliferating Weapons of Mass Destruction (WMDs)</a>
         </ul>
         <div className='font-bold text-xl'>GA2: Social and Humanitarian Committee</div>
         <ul>
-            <li>Tackling the humanitarian crisis in Ethiopia</li>
+            <li>Tackling the humanitarian crisis in Ethiopia </li>
+           
             <li>Promoting strategies to improve transparency in the distribution of humanitarian aid</li>
-            <li>Implementing measures to tackle the consequential spread of extremist ideologies in Europe as a consequence of the refugee crisis</li>
+            <a href='/files/GA2_3.pdf/' download="GA2_3" target="_blank" rel="noopener noreferrer" >Implementing measures to tackle the consequential spread of extremist ideologies in Europe as a consequence of the refugee crisis</a>
         </ul>
         <div className='font-bold text-xl'>GA3: Special Political & Decolonization Committee</div>
         <ul>
@@ -102,31 +104,32 @@ export default function Home() {
         </ul>
         <div className='font-bold text-xl'>GA4: Environmental Committee</div>
         <ul>
-            <li>Addressing ways to enhance transparency and compliance in countries’ climate action plans</li>
-            <li>Enhancing accessibility to responsible waste management systems</li>
-            <li>Mitigating the effects of the collapsing glaciers and the rising sea-level in high risk regions</li>
+         
+        <li>  <a href='/files/GA4.pdf/' download="GA4_1" target="_blank" rel="noopener noreferrer" >Addressing ways to enhance transparency and compliance in countries climate action plans</a></li>
+         <li><a href='/files/GA4_2.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Enhancing accessibility to responsible waste management systems</a></li>
+        <a href='/files/GA4_3.pdf/' download="GA4_3" target="_blank" rel="noopener noreferrer" >Mitigating the effects of the collapsing glaciers and the rising sea-level in high risk regions</a>
         </ul>
         <div className='font-bold text-xl'>GA5: Legal Committee</div>
         <ul>
-            <li>The question of legislative immunity</li>
-            <li>Addressing tax evasion and profit shifting practices in multinational corporations</li>
-            <li>Increasing transparency and accountability between parties in international treaties</li>
+        <li><a href='/files/GA5.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >The question of legislative immunity</a></li>
+        <li><a href='/files/GA5_2.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Addressing tax evasion and profit shifting practices in multinational corporations</a></li>
+        <a href='/files/GA5_3.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Increasing transparency and accountability between parties in international treaties</a>
         </ul>
         <div className='font-bold text-xl'>SDC: Sustainable Development Committee</div>
         <ul>
-            <li>Seeking strategies to promote the transition into circular economy models</li>
+            <a href='/files/SDC.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Seeking strategies to promote the transition into circular economy models</a>
             <li>Pioneering ways to promote ethical and sustainable business practices based on fair labor standards and transparent supply chains</li>
             <li>Measures to enhance global health emergency preparedness and transparency in information regarding healthcare</li>
         </ul>
         <div className='font-bold text-xl'>SC: Security Council</div>
         <ul>
-            <li>Mediating the conflict in West Bank and Gaza</li>
-            <li>Distribution of natural income in African Great Lakes</li>
-            <li>The aftermath of territories impacted by Boko-Haram</li>
+            <li><a href='/files/GA5_2.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Mediating the conflict in West Bank and Gaza</a></li>
+            <li><a href='/files/SDC.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Distribution of natural income in African Great Lakes</a></li>
+            <a href='/files/SDC.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >The aftermath of territories impacted by Boko-Haram</a>
         </ul>
         <div className='font-bold text-xl'>Economic and Social Council (ECOSOC)</div>
         <ul>
-            <li>Ensuring safety nets for vulnerable populations’ uncertain economic incomes during times of natural disasters</li>
+        <a href='/files/ECOSOC-1.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Ensuring safety nets for vulnerable populations’ uncertain economic incomes during times of natural disasters</a>
             <li>Developing strategies to promote sustainable agriculture production and responsible land use</li>
             <li>Promoting fair trade practices and transparency in international trade agreements</li>
         </ul>

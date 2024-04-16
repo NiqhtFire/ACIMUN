@@ -7,10 +7,10 @@ import { useState, useEffect, useRef } from 'react';
 
 import { Router, useLocation } from 'react-router-dom';
 const navs = [
-    {title: "Home", route: "/"},
-    {title: "Venue", route: "/venue"},
-    {title: "Conference Details", route: "/menu"},
-    {title: "Register", route: "/register"},
+    {title: "Home", route: "/", dropdown: false, arrow: false} ,
+    {title: "Venue", route: "/venue", dropdown: false, arrow: false},
+    {title: "Conference Details", route: "/menu", dropdown: true, arrow: false},
+    {title: "Handbook", route: "/files/handbook.pdf", dropdown: false, arrow: false},
   
     
 ]
@@ -101,8 +101,11 @@ const Navbar = ( props:Props) => {
     >
             <div className='flex flex-col gap-4 py-2 px-4 text-lg'>
                 {navs.map((nav, i) => {
+                  
                         return(
+       
                             <Link key={i} href = {nav.route}>{nav.title}</Link>
+                 
                         )
                 })}
             </div>
@@ -125,13 +128,38 @@ const Navbar = ( props:Props) => {
          <ul className='maxwidth ml-[460px]'>
           
          {navs.map((nav, i) => {
+          const linkClass = nav.dropdown === true ? "dropbtn" : "";
+          const arrow = nav.arrow === true ? "block" : "hidden";
                         return(
-                          <li key={i}><Link href={nav.route}>{nav.title}</Link></li>
+                       
+                          <>
+                           <li className={linkClass} key={i}><a rel="noopener noreferrer" href={nav.route}>{nav.title}</a>
+                         <span className={arrow}>▼</span>
+                           <div className='dropdown-content'>
+                            <a href="/aboutmun">About Us</a>
+                            <div className='px-1 py-[0.7px] bg-white'></div>
+                            <a href="/theme">Theme</a>
+                            <div className="px-1 py-[0.7px] bg-white "></div>
+                            <a href="/agendaitems">Agenda Items</a>
+                            <div className="px-1 py-[0.7px] bg-white "></div>
+                            <a href="/provschedule">Provosional Schedule</a>
+                            <div className="px-1 py-[0.7px] bg-white "></div>
+                            <a href="/allocations">Allocations</a>
+                            <div className="px-1 py-[0.7px] bg-white "></div>
+                            <a href="/chairicjlist">Chair/ICJ List</a>
+                            <div className="px-1 py-[0.7px] bg-white "></div>
+                           </div>
+                           </li>
+                         
+                         
+                          </>
+
                         )
                 })}
             </ul>
            
         </nav>
+        
        </>
     )
 

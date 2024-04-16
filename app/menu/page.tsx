@@ -48,6 +48,10 @@ export default function Home() {
       <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
       <Link href="/provschedule" className='conferencedetails pt-4 text-[25px]'>Provosional Schedule</Link> 
       <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
+      <Link href="/allocations" className='conferencedetails pt-4 text-[25px]'>Allocations</Link> 
+      <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
+      <Link href="/chairicjlist" className='conferencedetails pt-4 text-[25px]'>Chair/ICJ List</Link> 
+      <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
 
     
     { /* <Link href="/provschedule" className='conferencedetails pt-4 text-[25px]'>Provosional Schedule</Link> 
