@@ -81,61 +81,61 @@ export default function Home() {
     <section>
     <div className='flex justify-center md:px-[400px] px-5 items-center'>
     <div className=' px-4 md:px-0 py-5'>
-    <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 justify-center'>
+    <div className='flex flex-col shadow-xl rounded-xl px-2 pb-4 justify-center'>
         <div className='text-2xl font-black'>Agenda Items</div>
         <div className='font-bold text-xl'>GA1: Disarmament and International Security Committee</div>
         <ul>
-            <li>Redirecting military spending for socio-economic development</li>
-            <li>Applying sustainable strategies to prevent resource-related conflicts</li>
-            <a href='/files/GA1_3.pdf/' download="GA1_3" target="_blank" rel="noopener noreferrer" >The question of non-proliferating Weapons of Mass Destruction (WMDs)</a>
+            <li><a href='/files/GA1.pdf' download="" target="_blank" rel="noopener noreferrer" >Redirecting military spending for socio-economic development</a></li>
+            <li className='py-2'>Applying sustainable strategies to prevent resource-related conflicts</li>
+            <a  className="py-2" href='/files/GA1_3.pdf' download="GA1_3" target="_blank" rel="noopener noreferrer" >The question of non-proliferating Weapons of Mass Destruction (WMDs)</a>
         </ul>
         <div className='font-bold text-xl'>GA2: Social and Humanitarian Committee</div>
         <ul>
-            <li>Tackling the humanitarian crisis in Ethiopia </li>
+        <li><a href='/files/GA2_1.pdf' download="" target="_blank" rel="noopener noreferrer" >Tackling the humanitarian crisis in Ethiopia </a></li>
            
-            <li>Promoting strategies to improve transparency in the distribution of humanitarian aid</li>
-            <a href='/files/GA2_3.pdf/' download="GA2_3" target="_blank" rel="noopener noreferrer" >Implementing measures to tackle the consequential spread of extremist ideologies in Europe as a consequence of the refugee crisis</a>
+            <li className='py-2'><a href='/files/GA2_2.pdf' download="" target="_blank" rel="noopener noreferrer" >Promoting strategies to improve transparency in the distribution of humanitarian aid </a></li>
+            <a className="py-2" href='/files/GA2_3.pdf' download="GA2_3" target="_blank" rel="noopener noreferrer" >Implementing measures to tackle the consequential spread of extremist ideologies in Europe as a consequence of the refugee crisis</a>
         </ul>
         <div className='font-bold text-xl'>GA3: Special Political & Decolonization Committee</div>
         <ul>
-            <li>Discussing the right to self-determination of the remaining Non-Self-Governing Territories</li>
-            <li>The question of Persian Gulf</li>
-            <li>Monitoring the conflict between Sudan and South Sudan</li>
+        <li><a href='/files/GA3_1.pdf' download="GA2_3" target="_blank" rel="noopener noreferrer" >Discussing the right to self-determination of the remaining Non-Self-Governing Territories</a></li>
+            <li className='py-2'><a href='/files/GA3_2.pdf' download="GA2_3" target="_blank" rel="noopener noreferrer" >The question of Persian Gulf </a></li>
+            <a className="py-2" href='/files/GA3_3.pdf' download="GA2_3" target="_blank" rel="noopener noreferrer" >Monitoring the conflict between Sudan and South Sudan</a>
         </ul>
         <div className='font-bold text-xl'>GA4: Environmental Committee</div>
         <ul>
          
-        <li>  <a href='/files/GA4.pdf/' download="GA4_1" target="_blank" rel="noopener noreferrer" >Addressing ways to enhance transparency and compliance in countries climate action plans</a></li>
-         <li><a href='/files/GA4_2.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Enhancing accessibility to responsible waste management systems</a></li>
-        <a href='/files/GA4_3.pdf/' download="GA4_3" target="_blank" rel="noopener noreferrer" >Mitigating the effects of the collapsing glaciers and the rising sea-level in high risk regions</a>
+        <li>  <a href='/files/GA4.pdf' target="_blank" rel="noopener noreferrer" >Addressing ways to enhance transparency and compliance in countries climate action plans</a></li>
+         <li className='py-2'><a href='/files/GA4_2.pdf'  target="_blank" rel="noopener noreferrer" >Enhancing accessibility to responsible waste management systems</a></li>
+        <a className='py-2' href='/files/GA4_3.pdf'  target="_blank" rel="noopener noreferrer" >Mitigating the effects of the collapsing glaciers and the rising sea-level in high risk regions</a>
         </ul>
         <div className='font-bold text-xl'>GA5: Legal Committee</div>
         <ul>
-        <li><a href='/files/GA5.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >The question of legislative immunity</a></li>
-        <li><a href='/files/GA5_2.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Addressing tax evasion and profit shifting practices in multinational corporations</a></li>
-        <a href='/files/GA5_3.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Increasing transparency and accountability between parties in international treaties</a>
+        <li><a href='/files/GA5.pdf'  target="_blank" rel="noopener noreferrer" >The question of legislative immunity</a></li>
+        <li className='py-2'><a href='/files/GA5_2.pdf'  target="_blank" rel="noopener noreferrer" >Addressing tax evasion and profit shifting practices in multinational corporations</a></li>
+        <a className='py-2' href='/files/GA5_3.pdf'  target="_blank" rel="noopener noreferrer" >Increasing transparency and accountability between parties in international treaties</a>
         </ul>
         <div className='font-bold text-xl'>SDC: Sustainable Development Committee</div>
         <ul>
-            <a href='/files/SDC.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Seeking strategies to promote the transition into circular economy models</a>
-            <li>Pioneering ways to promote ethical and sustainable business practices based on fair labor standards and transparent supply chains</li>
-            <li>Measures to enhance global health emergency preparedness and transparency in information regarding healthcare</li>
+            <a href='/files/SDC.pdf'  target="_blank" rel="noopener noreferrer" >Seeking strategies to promote the transition into circular economy models</a>
+            <li className='py-2'><a href='/files/SDC_2.pdf'  target="_blank" rel="noopener noreferrer" >Pioneering ways to promote ethical and sustainable business practices based on fair labor standards and transparent supply chains</a></li>
+            <li className='py-2'>  <a href='/files/SDC_3.pdf'  target="_blank" rel="noopener noreferrer" >Measures to enhance global health emergency preparedness and transparency in information regarding healthcare</a></li>
         </ul>
         <div className='font-bold text-xl'>SC: Security Council</div>
         <ul>
-            <li><a href='/files/GA5_2.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Mediating the conflict in West Bank and Gaza</a></li>
-            <li><a href='/files/SDC.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Distribution of natural income in African Great Lakes</a></li>
-            <a href='/files/SDC.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >The aftermath of territories impacted by Boko-Haram</a>
+            <li><a href='/files/SC.pdf'  target="_blank" rel="noopener noreferrer" >Mediating the conflict in West Bank and Gaza</a></li>
+            <li className='py-2'><a href='/files/SC_2.pdf'  target="_blank" rel="noopener noreferrer" >Distribution of natural income in African Great Lakes</a></li>
+            <a className='py-2' href='/files/SC_3.pdf' target="_blank" rel="noopener noreferrer" >The aftermath of territories impacted by Boko-Haram</a>
         </ul>
         <div className='font-bold text-xl'>Economic and Social Council (ECOSOC)</div>
         <ul>
-        <a href='/files/ECOSOC-1.pdf/' download="GA4_2" target="_blank" rel="noopener noreferrer" >Ensuring safety nets for vulnerable populations’ uncertain economic incomes during times of natural disasters</a>
-            <li>Developing strategies to promote sustainable agriculture production and responsible land use</li>
-            <li>Promoting fair trade practices and transparency in international trade agreements</li>
+        <a href='/files/ECOSOC-1.pdf'  target="_blank" rel="noopener noreferrer" >Ensuring safety nets for vulnerable populations’ uncertain economic incomes during times of natural disasters</a>
+            <li className='py-2'>Developing strategies to promote sustainable agriculture production and responsible land use</li>
+            <li className='py-2'>Promoting fair trade practices and transparency in international trade agreements</li>
         </ul>
         <div className='font-bold text-xl'>International Court of Justice (ICJ)</div>
         <ul>
-            <li>Bosnia and Herzegovina v. Serbia and Montenegro: Application of the convention on the prevention and punishment of the crime of genocide</li>
+            <li className='pt-1'>Bosnia and Herzegovina v. Serbia and Montenegro: Application of the convention on the prevention and punishment of the crime of genocide</li>
         </ul>
     </div>
 </div>
