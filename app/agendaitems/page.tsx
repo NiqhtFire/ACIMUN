@@ -6,210 +6,181 @@ import { FaRegFile } from "react-icons/fa6";
 export default function Home() {
   return (
     <>
-    <title>ACIMUN</title>
+      <title>ACIMUN</title>
   
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
-    />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+      />
 
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+      <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
   
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
-      rel="stylesheet"
-    />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+        rel="stylesheet"
+      />
    
-    <link href="/css/style.css" rel="stylesheet" />
+      <link href="/css/style.css" rel="stylesheet" />
 
-    <link href="/css/responsive.css" rel="stylesheet" />
-    <div className="hero_area_agend">
-      <Navbar/>
-   
-      <section className=" slider_section ">
-        <div className="container">
-          <div className="">
-            <div className="">
-              <div className="detail_box">
-                <div className='flex justify-evenly flex-col md:flex-row gap-4 md:gap-[200px]    '>
-             
-                <div className='flex flex-col text-center justify-center'>
-                  <span className=' text-[85px] md:text-[100px] my-[60px] fade-in-text '>
-                  Agenda Items
-
-                  
-                </span>
-            
-            
-               
-             
-                </div>
-
-
-                
-               
-                 
-
-            
-              
-                
-                </div>
-
-
-
-              <div className='flex flex-row '>
-             
-                
-              </div>
-               
-
-              
-              
-              </div>
-              <a href="" className=""></a>
-          </div>
-          
-          </div>
-        </div>
+      <link href="/css/responsive.css" rel="stylesheet" />
       
-
-
-      </section>
+      <div className="hero_area_agend">
+        <Navbar/>
    
-    </div>
-    <section>
-    <div className='flex justify-center md:px-[400px] px-5 items-center'>
-    <div className=' px-4 md:px-0 py-5'>
-    <div className='flex flex-col shadow-xl rounded-xl px-2 pb-4 justify-center'>
-        <div className='text-2xl font-black'>Agenda Items</div>
-        <div className='font-bold text-xl'>GA1: Disarmament and International Security Committee</div>
-        <ul>
-            <li><a href='/files/GA1.pdf' download="" target="_blank" rel="noopener noreferrer" >Redirecting military spending for socio-economic development</a></li>
-            <li className='py-2'>Applying sustainable strategies to prevent resource-related conflicts</li>
-            <a  className="py-2" href='/files/GA1_3.pdf' download="GA1_3" target="_blank" rel="noopener noreferrer" >The question of non-proliferating Weapons of Mass Destruction (WMDs)</a>
-        </ul>
-        <div className='font-bold text-xl'>GA2: Social and Humanitarian Committee</div>
-        <ul>
-        <li><a href='/files/GA2_1.pdf' download="" target="_blank" rel="noopener noreferrer" >Tackling the humanitarian crisis in Ethiopia </a></li>
-           
-            <li className='py-2'><a href='/files/GA2_2.pdf' download="" target="_blank" rel="noopener noreferrer" >Promoting strategies to improve transparency in the distribution of humanitarian aid </a></li>
-            <a className="py-2" href='/files/GA2_3.pdf' download="GA2_3" target="_blank" rel="noopener noreferrer" >Implementing measures to tackle the consequential spread of extremist ideologies in Europe as a consequence of the refugee crisis</a>
-        </ul>
-        <div className='font-bold text-xl'>GA3: Special Political & Decolonization Committee</div>
-        <ul>
-        <li><a href='/files/GA3_1.pdf' download="GA2_3" target="_blank" rel="noopener noreferrer" >Discussing the right to self-determination of the remaining Non-Self-Governing Territories</a></li>
-            <li className='py-2'><a href='/files/GA3_2.pdf' download="GA2_3" target="_blank" rel="noopener noreferrer" >The question of Persian Gulf </a></li>
-            <a className="py-2" href='/files/GA3_3.pdf' download="GA2_3" target="_blank" rel="noopener noreferrer" >Monitoring the conflict between Sudan and South Sudan</a>
-        </ul>
-        <div className='font-bold text-xl'>GA4: Environmental Committee</div>
-        <ul>
-         
-        <li>  <a href='/files/GA4.pdf' target="_blank" rel="noopener noreferrer" >Addressing ways to enhance transparency and compliance in countries climate action plans</a></li>
-         <li className='py-2'><a href='/files/GA4_2.pdf'  target="_blank" rel="noopener noreferrer" >Enhancing accessibility to responsible waste management systems</a></li>
-        <a className='py-2' href='/files/GA4_3.pdf'  target="_blank" rel="noopener noreferrer" >Mitigating the effects of the collapsing glaciers and the rising sea-level in high risk regions</a>
-        </ul>
-        <div className='font-bold text-xl'>GA5: Legal Committee</div>
-        <ul>
-        <li><a href='/files/GA5.pdf'  target="_blank" rel="noopener noreferrer" >The question of legislative immunity</a></li>
-        <li className='py-2'><a href='/files/GA5_2.pdf'  target="_blank" rel="noopener noreferrer" >Addressing tax evasion and profit shifting practices in multinational corporations</a></li>
-        <a className='py-2' href='/files/GA5_3.pdf'  target="_blank" rel="noopener noreferrer" >Increasing transparency and accountability between parties in international treaties</a>
-        </ul>
-        <div className='font-bold text-xl'>SDC: Sustainable Development Committee</div>
-        <ul>
-            <a href='/files/SDC.pdf'  target="_blank" rel="noopener noreferrer" >Seeking strategies to promote the transition into circular economy models</a>
-            <li className='py-2'><a href='/files/SDC_2.pdf'  target="_blank" rel="noopener noreferrer" >Pioneering ways to promote ethical and sustainable business practices based on fair labor standards and transparent supply chains</a></li>
-            <li className='py-2'>  <a href='/files/SDC_3.pdf'  target="_blank" rel="noopener noreferrer" >Measures to enhance global health emergency preparedness and transparency in information regarding healthcare</a></li>
-        </ul>
-        <div className='font-bold text-xl'>SC: Security Council</div>
-        <ul>
-            <li><a href='/files/SC.pdf'  target="_blank" rel="noopener noreferrer" >Mediating the conflict in West Bank and Gaza</a></li>
-            <li className='py-2'><a href='/files/SC_2.pdf'  target="_blank" rel="noopener noreferrer" >Distribution of natural income in African Great Lakes</a></li>
-            <a className='py-2' href='/files/SC_3.pdf' target="_blank" rel="noopener noreferrer" >The aftermath of territories impacted by Boko-Haram</a>
-        </ul>
-        <div className='font-bold text-xl'>Economic and Social Council (ECOSOC)</div>
-        <ul>
-        <a href='/files/ECOSOC-1.pdf'  target="_blank" rel="noopener noreferrer" >Ensuring safety nets for vulnerable populations’ uncertain economic incomes during times of natural disasters</a>
-            <li className='py-2'>Developing strategies to promote sustainable agriculture production and responsible land use</li>
-            <li className='py-2'>Promoting fair trade practices and transparency in international trade agreements</li>
-        </ul>
-        <div className='font-bold text-xl'>International Court of Justice (ICJ)</div>
-        <ul>
-            <li className='pt-1'>Bosnia and Herzegovina v. Serbia and Montenegro: Application of the convention on the prevention and punishment of the crime of genocide</li>
-        </ul>
-    </div>
-</div>
-
-
-
-    </div>
-    
-     
-     
-
-    </section>
-    
-    
-    
-   
-  
-   
-    <section className="info_section layout_padding">
-      <div className="container">
-        <div className="info_contact">
-          <div className="row">
-            <div className="col-md-4">
-              <a href="">
-                <img src="/images/location-white.png" alt="" />
-                <span>
-Göztepe, İnönü Cd. No:476, 35290 Konak/İzmir</span>
-              </a>
+        <section className="slider_section">
+          <div className="container">
+            <div className="detail_box">
+              <div className='flex justify-evenly flex-col md:flex-row gap-4 md:gap-[200px]'>
+                <div className='flex flex-col text-center justify-center'>
+                  <span className='text-[85px] md:text-[100px] my-[60px] fade-in-text'>
+                    Agenda Items
+                  </span>
+                </div>
+              </div>
             </div>
-            <div className="col-md-4">
-              <a href="">
-                <img src="/images/telephone-white.png" alt="" />
-                <span>Call : (0232) 355 05 55</span>
-              </a>
-            </div>
-            <div className="col-md-4">
-              <a href="">
-                <img src="/images/envelope-white.png" alt="" />
-                <span>
-secretariat@my.aci.k12.tr</span>
-              </a>
+          </div>
+        </section>
+      </div>
+
+      <section>
+        <div className='flex justify-center md:px-[400px] px-5 items-center'>
+          <div className='px-4 md:px-0 py-5'>
+            <div className='flex flex-col shadow-xl rounded-xl px-2 pb-4 justify-center'>
+              <div className='text-2xl font-black'>Agenda Items</div>
+              
+              <div className='font-bold text-xl'>GA1: Disarmament and International Security Committee</div>
+              <ul>
+                <li>1-Regulating the integration of AI technologies in defense systems to mitigate risks of misuse and escalation of conflicts</li>
+                <li>2-Strengthening early warning systems for conflict prevention</li>
+                <li>3-Restricting illicit arms trafficking to conflict regions and its impact on prolonging violence</li>
+              </ul>
+
+              <div className='font-bold text-xl'>GA2: Social and Humanitarian Committee</div>
+              <ul>
+                <li>1-Tackling the crisis originating from climate-induced displacement in disadvantaged regions</li>
+                <li>2-Ensuring the right to asylum for those fleeing violence</li>
+                <li>3-Enhancing the coordination of humanitarian assistance in crisis situations</li>
+              </ul>
+
+              <div className='font-bold text-xl'>GA3: Special Political & Decolonization Committee</div>
+              <ul>
+                <li>1-Resolving land disputes stemming from colonial borders</li>
+                <li>2-Monitoring the conflict in the West Bank and Gaza</li>
+                <li>3-Promoting the principle of territorial integrity in the face of secessionist movements</li>
+              </ul>
+
+              <div className='font-bold text-xl'>GA4: Environmental Committee</div>
+              <ul>
+                <li>1-Rehabilitating war-damaged environments as part of peace processes</li>
+                <li>2-Enhancing accessibility to clean water systems in areas of conflict</li>
+                <li>3-Reducing the effects of radioactive decay including health, safety, and environmental implications</li>
+              </ul>
+
+              <div className='font-bold text-xl'>GA5: Legal Committee</div>
+              <ul>
+                <li>1-Addressing legal challenges related to sovereignty and territorial disputes</li>
+                <li>2-Enhancing legal mechanisms for protecting civilian populations in warfare</li>
+                <li>3-Increasing collaboration among regional organizations and the United Nations</li>
+              </ul>
+
+              <div className='font-bold text-xl'>SDC: Sustainable Development Committee</div>
+              <ul>
+                <li>1-Pioneering ways to promote social and economic equality in conflict-affected states</li>
+                <li>2-Promoting sustainable development goals (SDGs) via multi-stakeholder collaboration</li>
+                <li>3-Enhancing sustainable development through the utilization of information and communications technologies (ICTs)</li>
+              </ul>
+
+              <div className='font-bold text-xl'>SPC1: Special Conference on Economic Instability and Inflation</div>
+              <ul>
+                <li>1-Exploring strategies to combat hyperinflation in developing economies and devise new monetary policies</li>
+                <li>2-Creating frameworks for long-term economic stability in post-conflict regions</li>
+                <li>3-Techniques for maintaining and accelerating growth</li>
+              </ul>
+
+              <div className='font-bold text-xl'>SPC2: Special Conference on Immigration and Refugee Crises</div>
+              <ul>
+                <li>1-Improving access to education and healthcare for displaced people</li>
+                <li>2-Preventing discrimination and xenophobia against migrants and refugees</li>
+                <li>3-Integrating refugees while enhancing their economic opportunities</li>
+              </ul>
+
+              <div className='font-bold text-xl'>SC: Security Council</div>
+              <ul>
+                <li>1-Addressing the role of veto power in hindering conflict resolution</li>
+                <li>2-Addressing methods for harmonious discussion and long-term administration of South China Sea territorial disputes</li>
+                <li>3-The aftermath of the political instability in Haiti</li>
+              </ul>
+
+              <div className='font-bold text-xl'>Advisory Panel on the Question of the Sahel (APQS)</div>
+              <ul>
+                <li>1-Question of Niger</li>
+                <li>2-Investigating and evaluating the war crimes in Burkina Faso</li>
+                <li>3-Tackling extremist militancy in the Sahel region</li>
+              </ul>
+
+              <div className='font-bold text-xl'>Economic and Social Council (ECOSOC)</div>
+              <ul>
+                <li>1-Exploring transparent and sustainable job creation initiatives that protect human rights and promote long-term growth</li>
+                <li>2-Tackling trade inequalities and supporting Least Developed Countries (LDCs) to integrate into global markets</li>
+                <li>3-Addressing the effects of employment of refugees on regional labor markets</li>
+              </ul>
+
+              <div className='font-bold text-xl'>International Court of Justice (ICJ)</div>
+              <ul>
+                <li>1-Sovereignty over Pedra Branca/Pulau Batu Puteh, Middle Rocks and South Ledge (Malaysia v. Singapore)</li>
+              </ul>
+              <div className='font-bold text-xl'>Bilingual Forum on the Efforts of Nuclear Non-Proliferation</div>
+              <div className='font-bold text-xl'>Forum Bilingue sur les Efforts de Non-Prolifération Nucléaire</div>
+              <div className='font-semibold text-lg'>Sub-Forum 1: Treaties and State Actors</div>
+              <div className='font-semibold text-lg'>Sous-Forum 1 : Traités et Acteurs Étatiques</div>
+              <ul>
+                <li>1-The question of strengthening the Non-Proliferation Treaty (NPT) to address
+                modern nuclear challenges </li>
+                <li>1-La question du renforcement du Traité de
+                Non-Prolifération (TNP) pour relever les défis nucléaires modernes</li>
+                <div className='h-2'></div>
+                <li>2-Regulating the use of emerging technologies, such as artificial intelligence and cyber tools, in nuclear warfare</li>
+                <li>2-La régulation de l'utilisation des technologies émergentes, telles que l’intelligence artificielle et les outils cybernétiques, dans la guerre nucléaire</li>
+              </ul>
+          
             </div>
           </div>
         </div>
-        <div className="row">
-          
-          <div className="col-md-4 col-lg-3">
-            <div className="info_social">
-            
-             
-              <div>
+      </section>
+
+      <section className="info_section layout_padding">
+        <div className="container">
+          <div className="info_contact">
+            <div className="row">
+              <div className="col-md-4">
                 <a href="">
-                  <img src="/images/instagram.png" alt="" />
+                  <img src="/images/location-white.png" alt="" />
+                  <span>Göztepe, İnönü Cd. No:476, 35290 Konak/İzmir</span>
+                </a>
+              </div>
+              <div className="col-md-4">
+                <a href="">
+                  <img src="/images/telephone-white.png" alt="" />
+                  <span>Call : (0232) 355 05 55</span>
+                </a>
+              </div>
+              <div className="col-md-4">
+                <a href="">
+                  <img src="/images/envelope-white.png" alt="" />
+                  <span>secretariat@my.aci.k12.tr</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <footer className="container-fluid footer_section">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-7 col-md-9 mx-auto">
-            <p>
-              © <noscript>2023</noscript>{new Date().getFullYear()} All Rights Reserved By
-              <a href="/"> ACIMUN</a>
-            </p>
-          </div>
+      </section>
+
+      <footer className="container-fluid footer_section">
+        <div className="container">
+          <p>© {new Date().getFullYear()} All Rights Reserved By <a href="/">ACIMUN</a></p>
         </div>
-      </div>
-    </footer>
-   
-  </>
-  
+      </footer>
+    </>
   )
 }

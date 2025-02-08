@@ -79,7 +79,7 @@ export default function Home() {
     </div>
     <section>
        <div className='flex justify-center my-[150px] '>
-        <div className='text-4xl font-italic'>Promoting Ethical and Transparent Progress in Global Entities</div>
+        <div className='text-4xl font-italic'>"Augmenting the Efficacy of International Bodies in Conflict Resolution"</div>
        </div>
     </section>
     

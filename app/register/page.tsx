@@ -63,9 +63,9 @@ export default function Home() {
         <option value="2">Stoff</option>
         <option value="3">AP</option>
         <option value="4">ICJ</option>
-        <option value="5">French Forum</option>
+        {/* <option value="5">French Forum</option>  */}
         <option value="6">Press Team</option>
-
+        <option value="7">Bilingual Forum</option>
 
 
 
@@ -115,6 +115,15 @@ export default function Home() {
  <iframe src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/1"  style={{border:0,width:"100%"}} height="2765"></iframe>
 <script src="https://www.cognitoforms.com/f/iframe.js"></script>
 
+    </div>
+    )
+    
+ 
+  }
+  {selectedValue ==='7' && (
+    <div>
+<iframe src="https://www.cognitoforms.com/f/zBOt36SYnEOOSsScc6diuA/9" allow="payment" style={{border:0,width:"100%"}} height="1868"></iframe>
+<script src="https://www.cognitoforms.com/f/iframe.js"></script>
     </div>)
  
   }

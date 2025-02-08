@@ -35,11 +35,11 @@ export default function Home() {
              
                 <div className='flex flex-col text-center justify-center'>
                   <span className=' text-[85px] md:text-[100px] my-[60px] fade-in-text '>
-                  Chair / IJC List
+                  Chair / IJC List For ACIMUN'24
 
                   
                 </span>
-            
+                <span>to be Updated</span>
             
                
              

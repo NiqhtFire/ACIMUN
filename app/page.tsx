@@ -39,20 +39,22 @@ export default function Home() {
              
                 <div className='flex flex-col text-center justify-center'>
                   <span className='text-6xl my-[60px] fade-in-text '>
-                  ACIMUN'24 
+                  ACIMUN'25 
 
                   
                 </span>
                 <span className='text-5xl italic fade-in-text '>
-                "Promoting Ethical and Transparent Progress in Global Entities"
+                "Augmenting the Efficacy of International Bodies in Conflict Resolution"
                 </span>
                 <span className='text-2xl mt-2 mb-2 fade-in-text '>
                 Izmir, Turkey
                 </span>
-                <p className='text-[20px] fade-in-text '>
-                ACIMUN'24 REGISTRATIONS ARE OPEN NOW! <br />
-                 REGISTER BEFORE THE DEADLINE
+                <p className='text-[20px] fade-in-text text-3xl font-bold'>
+                 STARTING FEBRUARY 20!
                 </p>
+                <div className="btn-box fade-in-text">
+          <a href="/provschedule">Schedule</a>
+        </div>
             
                
              

@@ -363,7 +363,7 @@ nav{
   top: 0;
   left: 0;
   height: 100px;
-  padding: 10px 100px;
+  padding: 10px 50px;
   box-sizing: border-box;
   transition: .5s;
 }

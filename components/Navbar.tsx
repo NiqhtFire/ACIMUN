@@ -11,6 +11,7 @@ const navs = [
     {title: "Venue", route: "/venue", dropdown: false, arrow: false},
     {title: "Conference Details", route: "/menu", dropdown: true, arrow: false},
     {title: "Handbook", route: "/files/handbook.pdf", dropdown: false, arrow: false},
+    {title: "Register", route: "/register", dropdown: false, arrow: false},
   
     
 ]
@@ -111,54 +112,40 @@ const Navbar = ( props:Props) => {
             </div>
     </Drawer>
         </div>
-		<nav ref={navRef} className={' justify-between w-full text-nowrap hidden md:flex' + (props.isBlacked ? ' blacked' : '') }>
-    <a className="navbar-brand gap-3" href="/">
-              <div className=''>
-               <img className="object-scale-down h-[55px] w-[55px] min-h-[55px] min-w-[55px]" src="/images/munlogo.png" alt="" />
-              </div>
-             
-              <div className='navbar-brand navbar-sd text-2xl'>
-                <span>ACIMUN &apos;24</span>
-               
-              </div>
-           
-              
-            </a>
+	<nav
+  ref={navRef}
+  className={`flex items-center justify-between w-full text-nowrap hidden md:flex${props.isBlacked ? ' blacked' : ''}`}
+>
+  <a className="navbar-brand flex items-center gap-3" href="/">
+    <img
+      className="object-scale-down h-[55px] w-[55px] min-h-[55px] min-w-[55px]"
+      src="/images/munlogo.png"
+      alt="Logo"
+    />
+    <span className='text-2xl'>ACIMUN '25</span>
+  </a>
 
-         <ul className='maxwidth ml-[460px]'>
-          
-         {navs.map((nav, i) => {
-          const linkClass = nav.dropdown === true ? "dropbtn" : "";
-          const arrow = nav.arrow === true ? "block" : "hidden";
-                        return(
-                       
-                          <>
-                           <li className={linkClass} key={i}><a rel="noopener noreferrer" href={nav.route}>{nav.title}</a>
-                         <span className={arrow}>▼</span>
-                           <div className='dropdown-content'>
-                            <a href="/aboutmun">About Us</a>
-                            <div className='px-1 py-[0.7px] bg-white'></div>
-                            <a href="/theme">Theme</a>
-                            <div className="px-1 py-[0.7px] bg-white "></div>
-                            <a href="/agendaitems">Agenda Items</a>
-                            <div className="px-1 py-[0.7px] bg-white "></div>
-                            <a href="/provschedule">Provosional Schedule</a>
-                            <div className="px-1 py-[0.7px] bg-white "></div>
-                            <a href="/allocations">Allocations</a>
-                            <div className="px-1 py-[0.7px] bg-white "></div>
-                            <a href="/chairicjlist">Chair/ICJ List</a>
-                            <div className="px-1 py-[0.7px] bg-white "></div>
-                           </div>
-                           </li>
-                         
-                         
-                          </>
+  <ul className='flex items-center mr-[0px]'>
+    {navs.map((nav, i) => {
+      const linkClass = nav.dropdown ? "dropbtn" : "";
+      const arrow = nav.arrow ? "block" : "hidden";
+      return (
+        <li className={`${linkClass} mx-2`} key={i}>
+          <a rel="noopener noreferrer" href={nav.route}>{nav.title}</a>
+          {nav.dropdown && (
+            <>
+              <span className={arrow}>▼</span>
+              <div className='dropdown-content'>
+                {/* Dropdown links */}
+              </div>
+            </>
+          )}
+        </li>
+      )
+    })}
+  </ul>
+</nav>
 
-                        )
-                })}
-            </ul>
-           
-        </nav>
         
        </>
     )
