@@ -35,11 +35,11 @@ export default function Home() {
              
                 <div className='flex flex-col text-center justify-center'>
                   <span className=' text-[85px] md:text-[100px] my-[60px] fade-in-text '>
-                  Chair / IJC List For ACIMUN'24
+                  Chair / ICJ List For ACIMUN'25
 
                   
                 </span>
-                <span>to be Updated</span>
+
             
                
              
@@ -83,42 +83,42 @@ export default function Home() {
 <div className='flex justify-center text-2xl font-bold'> Chair List</div>
 <div className='grid grid-cols-2 gap-5 shadow-xl rounded-xl pt-4 px-5 justify-center'>
 <div>GA1</div>
-<div>Ali Altan Yılmaz</div>
+<div>Janset Selen</div>
 <div>GA2</div>
-<div>Murat Yiğit Harzadın</div>
+<div>Zeynep Turhan</div>
 <div>GA3</div>
-<div>Dora Saylıkoğlu</div>
+<div>İlke Biçeroğlu</div>
 <div>GA4</div>
-<div>Erdinç Acar</div>
+<div>Erke Değerli</div>
 <div>GA5</div>
-<div>Kyle Arda Jon-Atay</div>
+<div>Zehra Desen Çelik</div>
 <div>SDC</div>
-<div>Sarp Rüzgar Susuzlu</div>
+<div>Efe Özgür</div>
+<div>SPC</div>
+<div>Kaan Şen</div>
 <div>SC</div>
-<div>Berra Mina Eroğlu</div>
+<div>Nazlı Emre</div>
 <div>ECOSOC</div>
 <div>Zeynep Turhan</div>
 <div>ICJ</div>
-<div className="pb-4">Damla Çakır</div>
+<div className="pb-4">Defne Serdar</div>
 
 </div>
 
 <div className='flex justify-center text-2xl font-bold'> ICJ List</div>
 <div className='grid grid-cols-2 gap-5 shadow-xl rounded-xl pt-4 px-5 justify-center'>
-<div>Defne Serdar</div>
-<div>Ceyda Kuzucu</div>
 <div>Damla Sinem Araz</div>
-<div>Aileen Aylin Hillhouse</div>
+<div>Selin İzmirlioğlu</div>
+<div>Melis Tatoğlu</div>
+<div>Serra Berrin Uysal</div>
 <div>Mete Alp Ünsal</div>
-<div>Tayra Yuna</div>
-<div>Ece Törün</div>
-<div>Cafer Demir Özalp</div>
-<div>Damla Çakır</div>
-<div>Berk Fidancıoğlu</div>
-<div>Toprak Arda Demir</div>
-<div>Duru Şengöçmen</div>
-<div>Sevinç Dokucu</div>
-<div className="pb-4">Ege Mutlu</div>
+<div>Gülefza Özkaraca</div>
+<div>Ceylin Güler</div>
+<div>Melis Itır Kaplan</div>
+<div>Zeynep Ünver</div>
+<div>Ada Düşünceli</div>
+<div>Jiyan Nur Çoban</div>
+<div>Duru Taflı</div>
 
 </div>
 
