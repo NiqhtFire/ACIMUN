@@ -35,7 +35,7 @@ export default function Home() {
              
                 <div className='flex flex-col text-center justify-center'>
                   <span className=' text-[85px] md:text-[100px] my-[60px] fade-in-text '>
-                  Allocations For ACIMUN'24 
+                  Allocations For ACIMUN'25 
 
                   
                 </span>
@@ -85,77 +85,81 @@ export default function Home() {
     <div>ÇAKABEY</div>
     <div className='flex flex-col'>
       <div>India</div>
-       <div>Sierra Leone</div>
+       <div>Canada</div>
+        <div>Mozambique</div>
     </div>
-    <div>İSTEK ANTALYA LARA</div>
-    <div>Israel</div>
-    <div>ODTÜ GVÖ MERSİN</div>
+    <div>TED ISPARTA COLLEGE</div>
     <div className='flex flex-col'>
-      <div>India</div>
-       <div>European Union</div>
+      <div>Equador</div>
+       <div>Italy </div>
     </div>
-    <div>FMV ÖZEL AYAZAĞA IŞIK</div>
-    <div>Iraq</div>
+    <div>MEF INTERNATIONAL SCHOOL IZMIR</div>
+    <div>France</div>
     <div>IŞIKKENT</div>
     <div className='flex flex-col'>
-      <div>Ukraine</div>
-       <div>Guyana</div>
+      <div>Russian Federation</div>
+       <div>Iran</div>
     </div>
-    <div>GAZİEMİR ROTA COLLEGE</div>
-    <div>Japan</div>
-    <div>İZMİR BAHÇEŞEHİR COLLEGE</div>
-    <div>Pakistan</div>
-    <div>TEV İNANÇ TÜRKEŞ HIGH SCHOOL</div>
-    <div>United Kingdom</div>
+    <div>GAZİEMİR KENT COLLEGE</div>
+    <div>Malta</div>
+    <div>SEV AMERICAN COLLEGE</div>
+    <div>South Korea</div>
+    <div>IZMIR GELİŞİM COLLEGE</div>
+    <div>Czech Republic</div>
     <div>TAKEV</div>
     <div className='flex flex-col'>
-      <div>Greece</div>
-       <div>Dominican Republic</div>
-       <div>Algeria</div>
+      <div>Japan</div>
+       <div>Yemen</div>
     </div>
-    <div>İSTEK İZMİR</div>
+    <div>TEV İNANÇ TÜRKEŞ HIGH SCHOOL</div>
     <div className='flex flex-col'>
-      <div>Malta</div>
-       <div>Ecuador</div>
+      <div>DPRK</div>
+       <div>Guyana</div>
     </div>
-    <div>TED EGE COLLEGE</div>
-    <div>Saudi Arabia</div>
-    <div>IZMIR SAINT JOSEPH</div>
+    <div>TEVFİK FİKRET HIGH SCHOOL</div>
+    <div>Afghanistan</div>
+    <div>GAZIEMIR ROTA COLLEGE</div>
     <div>China</div>
-    <div>ITÜ GVÖ</div>
+    <div>ISTEK IZMIR ANATOLIAN HIGH SCHOOL</div>
     <div className='flex flex-col pb-2'>
-      <div>Switzerland</div>
-       <div>Russia</div>
+      <div>United Kingdom</div>
+       <div>Ethiopia</div>
     </div>
 </div>
 
 <div className='flex justify-center text-2xl font-bold'> Room Allocations</div>
 <div className='grid grid-cols-2 gap-5 shadow-xl rounded-xl pt-4 px-5 justify-center'>
+<div>Beacon 1</div>
+<div>French Forum</div>
 <div>Beacon 2</div>
 <div>General Assembly 1</div>
 <div>Beacon 3</div>
 <div>General Assembly 2</div>
-<div>Beacon 5</div>
+<div>Beacon 4</div>
 <div>General Assembly 3</div>
-<div>Beacon 6</div>
+<div>Beacon 5</div>
 <div>General Assembly 4</div>
-<div>Beacon 7</div>
+<div>Beacon 6</div>
 <div>General Assembly 5</div>
+<div>Beacon 7</div>
+<div>Sustainable Development Committee (SDC)</div>
+<div>Beacon 7.5</div>
+<div>Secretariat</div>
 <div>Beacon 8</div>
-<div>Sustainable Development Committee</div>
+<div>Approval Panel</div>
 <div>Beacon 9</div>
-<div>Economic and Social Council</div>
+<div>Economic and Social Council (ECOSOC)</div>
+<div>Beacon 10</div>
+<div>Special Conference on Immigration and Refugee Crisis (SPC)</div>
+<div>Beacon 11</div>
+<div>International Court of Justice (ICJ)</div>
 
 <div>Beacon 12</div>
-<div>International Court of Justice</div>
-<div>Heritage Room</div>
-<div>Security Council</div>
+<div>Security Council (SC)</div>
 <div>Registration and Welcome Dinner</div>
 <div>Co-op</div>
 <div>Advisor Lounge</div>
 <div>Co-Op</div>
-<div>Beacon 7.5</div>
-<div className='pb-3'>Secretariat Room</div>
 </div>
 
 </div>
