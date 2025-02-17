@@ -42,20 +42,14 @@ export default function Home() {
       <section>
         <div className='flex justify-center'>
           <div className='grid grid-cols-1 px-4 md:px-0 md:grid-cols-2 gap-x-[120px] gap-y-[100px] py-5'>
-            <div className='flex flex-col shadow-xl rounded-xl pt-4 px-5  pb-4 justify-top'>
+            <div className='flex flex-col shadow-xl rounded-xl pt-4 px-5 pb-4 justify-top'>
               <div>THURSDAY, February 20</div>
-              <div>13:00 Hatay Gate Opens</div>
-              <div>13:00 - 14:30 Registration (Hatay Gate)</div>
-              <div>13:15 - 13:45 Committee Chairs Meeting - Beacon 13</div>
-              <div>14:00 - 14:45 Opening Ceremony (Blake Auditorium)</div>
-              <div>14:45 - 15:30 Keynote Speaker (Blake Auditorium)</div>
-              <div>15:15 - 15:30 Break</div>
-              <div>15:30 - 16:30 Press Conference - Taner Garaj</div>
-              <div>15:30 - 16:15 Ambassador Speeches (Blake Auditorium)</div>
-              <div>15:30 - 16:15 Committees in Meeting</div>
-              <div>16:15 - 16:30 Break</div>
-              <div>16:30 - 18:00 Lobbying</div>
-              <div>18:00 - 18:30 Committee Chairs Meeting - Beacon 13</div>
+              <div>15:00 Hatay Gate Opens</div>
+              <div>15:00 - 16:00 Registration (Hatay Gate)</div>
+              <div>15:30 - 16:00 Committee Chairs Meeting - Beacon 13</div>
+              <div>16:00 - 17:00 Opening Ceremony (Blake Auditorium)</div>
+              <div>16:30 - 17:00 Press Conference - Taner Garaj</div>
+              <div>17:00 - 18:00 Committees in Meeting</div>
               <div>18:00 - 20:00 Dinner</div>
               <div>20:00 Buses Leave</div>
             </div>
@@ -72,7 +66,7 @@ export default function Home() {
               <div>17:30 Buses Leave</div>
             </div>
 
-            <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4  pt-4 justify-top'>
+            <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 pt-4 justify-top'>
               <div>SATURDAY, February 22</div>
               <div>8:30 - 9:00 Committee Chairs Meeting - Beacon 13</div>
               <div>9:00 - 17:00 Committees in Meeting</div>
@@ -84,15 +78,15 @@ export default function Home() {
               <div>17:30 Buses Leave</div>
             </div>
 
-            <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4  pt-4 justify-top'>
+            <div className='flex flex-col shadow-xl rounded-xl px-5 pb-4 pt-4 justify-top'>
               <div>SUNDAY, February 23</div>
               <div>8:30 - 9:00 Committee Chairs Meeting - Beacon 13</div>
-              <div>9:00 - 15:30 ECOSOC, SC, SDC, SPC1, SPC2, ICJ, Bilingual Forum in Session</div>
-              <div>12:00 - 12:45 GA Committees Lunch</div>
-              <div>12:45 - 13:30 ECOSOC, SC, SDC, SPC1, SPC2, ICJ, Bilingual Forum Lunch</div>
-              <div>12:45 - 15:30 General Assembly in Session (Blake Auditorium)</div>
-              <div>15:45 - 17:15 Closing Ceremony (Blake Auditorium)</div>
-              <div>17:30 Buses Leave</div>
+              <div>9:00 - 15:30 ECOSOC, SC, SDC, SPC1, SPC2, ICJ, Bilingual Forum in Meeting</div>
+              <div>12:00 - 12:30 GA Committees Lunch</div>
+              <div>12:30 - 13:30 ECOSOC, SC, SDC, SPC1, SPC2, ICJ, Bilingual Forum Lunch</div>
+              <div>12:30 - 15:30 General Assembly in Meeting (Blake Auditorium)</div>
+              <div>15:30 - 16:30 Closing Ceremony (Blake Auditorium)</div>
+              <div>16:30 Buses Leave</div>
             </div>
           </div>
         </div>
