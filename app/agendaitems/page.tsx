@@ -58,72 +58,58 @@ export default function Home() {
 
               <div className='font-bold text-xl'>GA2: Social and Humanitarian Committee</div>
               <ul>
-                <li>1-Tackling the crisis originating from climate-induced displacement in disadvantaged regions</li>
-                <li>2-Ensuring the right to asylum for those fleeing violence</li>
-                <li>3-Enhancing the coordination of humanitarian assistance in crisis situations</li>
+                <li><a href="https://drive.google.com/file/d/1yFscaGKS6LTw8oglqxva49905jMrPM_D/view?usp=sharing" target="_blank">1-Tackling the crisis originating from climate-induced displacement in disadvantaged regions</a></li>                
+                <li><a href="https://drive.google.com/file/d/1pifX37rGPap4mTUvYZ9Jko1GfLck5Chx/view?usp=sharing" target="_blank">2-Ensuring the right to asylum for those fleeing violence</a></li>                
+                <li><a href="https://drive.google.com/file/d/1FX5YhKp2d6OQv9sylMnoiJYx2EWAbgbW/view?usp=sharing" target="_blank">3-Enhancing the coordination of humanitarian assistance in crisis situations</a></li>                
               </ul>
 
               <div className='font-bold text-xl'>GA3: Special Political & Decolonization Committee</div>
               <ul>
-                <li>1-Resolving land disputes stemming from colonial borders</li>
-                <li>2-Monitoring the conflict in the West Bank and Gaza</li>
-                <li>3-Promoting the principle of territorial integrity in the face of secessionist movements</li>
+                <li><a href="" target="_blank">1-Resolving land disputes stemming from colonial borders</a></li>    
+                <li><a href="https://drive.google.com/file/d/1OinxDsf3P--_4KBEeJuLIkjJxWp_gAWT/view?usp=sharing" target="_blank">2-Monitoring the conflict in the West Bank and Gaza</a></li>    
+                <li><a href="" target="_blank">3-Promoting the principle of territorial integrity in the face of secessionist movements</a></li>    
               </ul>
 
               <div className='font-bold text-xl'>GA4: Environmental Committee</div>
               <ul>
-                <li>1-Rehabilitating war-damaged environments as part of peace processes</li>
-                <li>2-Enhancing accessibility to clean water systems in areas of conflict</li>
-                <li>3-Reducing the effects of radioactive decay including health, safety, and environmental implications</li>
+                <li><a href="https://drive.google.com/file/d/1mQirpn6v27pXwvxmuaxH4taJV6I4Tuys/view?usp=sharing" target="_blank">1-Rehabilitating war-damaged environments as part of peace processess</a></li>
+                <li><a href="" target="_blank">2-Enhancing accessibility to clean water systems in areas of conflict</a></li> 
+                <li><a href="https://drive.google.com/file/d/1z2jSAeixgo8tdlLu9ptllKzie_6pBH8c/view?usp=sharing" target="_blank">3-Reducing the effects of radioactive decay including health, safety, and environmental implications</a></li> 
               </ul>
 
               <div className='font-bold text-xl'>GA5: Legal Committee</div>
               <ul>
-                <li>1-Addressing legal challenges related to sovereignty and territorial disputes</li>
-                <li>2-Enhancing legal mechanisms for protecting civilian populations in warfare</li>
-                <li>3-Increasing collaboration among regional organizations and the United Nations</li>
+                <li><a href="https://drive.google.com/file/d/1zgNEUA8FAk-olOjdd1uoBNoESn9Lr6yN/view?usp=sharing" target="_blank">1-Addressing legal challenges related to sovereignty and territorial disputes</a></li>
+                <li><a href="https://drive.google.com/file/d/10vf3YuxuvnduSoqNbcJFlmzZUCCDJNSQ/view?usp=sharing" target="_blank">2-Enhancing legal mechanisms for protecting civilian populations in warfare</a></li>
+                <li><a href="https://drive.google.com/file/d/1PCCeRyF8p2eZA2JviigobJOOa2ofW1Bg/view?usp=sharing" target="_blank">3-Increasing collaboration among regional organizations and the United Nations</a></li>
               </ul>
 
               <div className='font-bold text-xl'>SDC: Sustainable Development Committee</div>
               <ul>
-                <li>1-Pioneering ways to promote social and economic equality in conflict-affected states</li>
-                <li>2-Promoting sustainable development goals (SDGs) via multi-stakeholder collaboration</li>
-                <li>3-Enhancing sustainable development through the utilization of information and communications technologies (ICTs)</li>
+                <li><a href="https://drive.google.com/file/d/1JE9hLnXeqcVCoGIk2efzTyi9AYkBb69t/view?usp=sharing" target="_blank">1-Pioneering ways to promote social and economic equality in conflict-affected states</a></li>
+                <li><a href="https://drive.google.com/file/d/1Sl7vWiZaFMxdDcj6CzfLMdfMm7YOSYFd/view?usp=sharing" target="_blank">3-Increasing collaboration among regional organizations and the United Nations</a></li>
+                <li><a href="" target="_blank">3-Enhancing sustainable development through the utilization of information and communications technologies (ICTs)</a></li>
               </ul>
 
-              <div className='font-bold text-xl'>SPC1: Special Conference on Economic Instability and Inflation</div>
+              <div className='font-bold text-xl'>SPC: Special Conference on Immigration and Refugee Crises</div>
               <ul>
-                <li>1-Exploring strategies to combat hyperinflation in developing economies and devise new monetary policies</li>
-                <li>2-Creating frameworks for long-term economic stability in post-conflict regions</li>
-                <li>3-Techniques for maintaining and accelerating growth</li>
-              </ul>
-
-              <div className='font-bold text-xl'>SPC2: Special Conference on Immigration and Refugee Crises</div>
-              <ul>
-                <li>1-Improving access to education and healthcare for displaced people</li>
-                <li>2-Preventing discrimination and xenophobia against migrants and refugees</li>
-                <li>3-Integrating refugees while enhancing their economic opportunities</li>
+                  <li><a href="https://drive.google.com/file/d/1SbpDi7XAsv7xz2kiX8uMY4AYOpmKwM3L/view?usp=sharing" target="_blank">1-Improving access to education and healthcare for displaced people</a></li>
+                  <li><a href="https://drive.google.com/file/d/1nQDWF7HLu11j5H7uzwdNDTPc9wfWHPXW/view?usp=sharing" target="_blank">2-Preventing discrimination and xenophobia against migrants and refugees</a></li>
+                  <li><a href="https://drive.google.com/file/d/1wFkQ4o_bkT12ZRAXXoPHHdcQjrARifJK/view?usp=sharing" target="_blank">3-Integrating refugees while enhancing their economic opportunities</a></li>
               </ul>
 
               <div className='font-bold text-xl'>SC: Security Council</div>
               <ul>
-                <li>1-Addressing the role of veto power in hindering conflict resolution</li>
-                <li>2-Addressing methods for harmonious discussion and long-term administration of South China Sea territorial disputes</li>
-                <li>3-The aftermath of the political instability in Haiti</li>
-              </ul>
-
-              <div className='font-bold text-xl'>Advisory Panel on the Question of the Sahel (APQS)</div>
-              <ul>
-                <li>1-Question of Niger</li>
-                <li>2-Investigating and evaluating the war crimes in Burkina Faso</li>
-                <li>3-Tackling extremist militancy in the Sahel region</li>
+              <li><a href="https://drive.google.com/file/d/1RCTOCJli7OYE4JQETO2BW-_Y_gH4hOdH/view?usp=sharing" target="_blank">1-Addressing the role of veto power in hindering conflict resolution</a></li>
+              <li><a href="https://drive.google.com/file/d/18GFW9gJEeS_lxOGDHDiVsJC4OOGnnoca/view?usp=sharing" target="_blank">2-Addressing methods for harmonious discussion and long-term administration of South China Sea territorial disputes</a></li>
+              <li><a href="https://drive.google.com/file/d/1-LNKpRgmdUfSAvdrAP9xcP84huKc0CMm/view?usp=sharing" target="_blank">3-The aftermath of the political instability in Haiti</a></li>
               </ul>
 
               <div className='font-bold text-xl'>Economic and Social Council (ECOSOC)</div>
               <ul>
-                <li>1-Exploring transparent and sustainable job creation initiatives that protect human rights and promote long-term growth</li>
-                <li>2-Tackling trade inequalities and supporting Least Developed Countries (LDCs) to integrate into global markets</li>
-                <li>3-Addressing the effects of employment of refugees on regional labor markets</li>
+                <li><a href="https://drive.google.com/file/d/1WZ7Jx31eMw7fTblSeATdspe9RzdAcH9-/view?usp=sharing" target="_blank">1-Exploring transparent and sustainable job creation initiatives that protect human rights and promote long-term growth</a></li>
+                <li><a href="https://drive.google.com/file/d/14-VikpdcM5wGChNDI2OZmJUvY8weACsa/view?usp=sharing" target="_blank">2-Tackling trade inequalities and supporting Least Developed Countries (LDCs) to integrate into global markets</a></li>
+                <li><a href="https://drive.google.com/file/d/1tivQsVLzkF2UnSF56y-gt2FAfxzK_iXu/view?usp=sharing" target="_blank">3-Integrating refugees while enhancing their economic opportunities</a></li>
               </ul>
 
               <div className='font-bold text-xl'>International Court of Justice (ICJ)</div>
