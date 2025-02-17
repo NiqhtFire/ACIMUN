@@ -116,6 +116,7 @@ export default function Home() {
 <div>Ceylin Güler</div>
 <div>Melis Itır Kaplan</div>
 <div>Zeynep Ünver</div>
+<div>Simay Özer</div>
 <div>Ada Düşünceli</div>
 <div>Jiyan Nur Çoban</div>
 <div>Duru Taflı</div>
