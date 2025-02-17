@@ -51,9 +51,9 @@ export default function Home() {
               
               <div className='font-bold text-xl'>GA1: Disarmament and International Security Committee</div>
               <ul>
-                <li>1-Regulating the integration of AI technologies in defense systems to mitigate risks of misuse and escalation of conflicts</li>
-                <li>2-Strengthening early warning systems for conflict prevention</li>
-                <li>3-Restricting illicit arms trafficking to conflict regions and its impact on prolonging violence</li>
+                <li><a href="https://drive.google.com/file/d/19DdkB4-m9vyj5xe5zyVVtr_ptNo0vGjj/view?usp=sharing" target="_blank">1-Regulating the integration of AI technologies in defense systems to mitigate risks of misuse and escalation of conflicts</a></li>
+                <li><a href="https://drive.google.com/file/d/1J_pEtTnAU-WHpOci0Lo0stSeY-FFxZHm/view?usp=sharing" target="_blank">2-Strengthening early warning systems for conflict prevention</a></li>
+                <li><a href="https://drive.google.com/file/d/1ZqF4-zWJbQa4yUm2vGf8_bhCgw532OtC/view?usp=sharing" target="_blank">3-Restricting illicit arms trafficking to conflict regions and its impact on prolonging violence</a></li>
               </ul>
 
               <div className='font-bold text-xl'>GA2: Social and Humanitarian Committee</div>
