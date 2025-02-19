@@ -1,85 +1,74 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 import { FaRegFile } from "react-icons/fa6";
-import Navbar from '../../components/Navbar';
-
-
-
-
+import Navbar from "../../components/Navbar";
 
 export default function Home() {
   return (
     <>
+      <title>ACIMUN</title>
 
-   
-    <title>ACIMUN</title>
-  
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
-    />
+      {/* Stylesheets */}
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+      />
+      <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" type="text/css" href="/css/style.css" />
+      <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
 
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
-  
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
-      rel="stylesheet"
-    />
-   
-    <link href="/css/style.css" rel="stylesheet" />
-
-    <link href="/css/responsive.css" rel="stylesheet" />
-   
-    <Navbar isBlacked/>
-    <div className='flex flex-row justify-center'>
-    <div className='flex shadow-2xl rounded-xl flex-col justify-between mt-[150px] px-[150px] py-[100px]  '>
-      
-      <div className='text-black text-4xl'>Conference Details</div>  
-     
- 
-  
-    
-      <Link href="/aboutmun" className='conferencedetails pt-4 text-[25px]'>About Us</Link>   
-      <div className='flex w-[260px] h-[2px] bg-gray-500'></div>
-      <Link href="/theme" className='conferencedetails pt-4 text-[25px]'>Theme</Link> 
-      <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
-      <Link href="/agendaitems" className='conferencedetails pt-4 text-[25px]'>Agenda Items</Link> 
-      <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
-      <Link href="/provschedule" className='conferencedetails pt-4 text-[25px]'>Provosional Schedule</Link> 
-      <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
-      <Link href="/allocations" className='conferencedetails pt-4 text-[25px]'>Allocations</Link> 
-      <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
-      <Link href="/chairicjlist" className='conferencedetails pt-4 text-[25px]'>Chair/ICJ List</Link> 
-      <div className='flex w-[260px] h-[2px] bg-gray-500'></div> 
-
-    
-    { /* <Link href="/provschedule" className='conferencedetails pt-4 text-[25px]'>Provosional Schedule</Link> 
-      <div className='flex w-[240px] h-[2px] bg-gray-500'></div> */}
-      
+      {/* Navbar */}
+      <Navbar isBlacked />
 
      
-    </div>  
-    </div>
-  
-    
-    
-   
-    
-    <footer className="container-fluid footer_section mt-[300px]">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-7 col-md-9 mx-auto">
-            <p>
-              © 2023 All Rights Reserved By
-              <a href="/"> ACIMUN</a>
-            </p>
+      <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 via-white to-blue-50">
+        <div className="shadow-xl rounded-xl md:mt-14 bg-white max-w-lg w-full px-8 py-[100px] md:px-10 md:py-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">
+            Conference Details
+          </h2>
+          <p className="text-center text-gray-600 mb-8 leading-relaxed">
+            Navigate through the sections below to learn more about our conference.
+          </p>
+
+          {/* Conference Details Links */}
+          <div className="flex flex-col gap-4">
+            {[
+              { href: "/aboutmun", label: "About Us" },
+              { href: "/theme", label: "Theme" },
+              { href: "/agendaitems", label: "Agenda Items" },
+              { href: "/provschedule", label: "Provisional Schedule" },
+              { href: "/allocations", label: "Allocations" },
+              { href: "/chairicjlist", label: "Chair/ICJ List" },
+            ].map((item, index) => (
+              <Link
+                key={index}
+                href={item.href}
+                className="group flex items-center justify-center gap-2 rounded-lg px-5 py-3 border border-gray-200 hover:bg-blue-100 transition-all duration-300"
+              >
+                
+                <span className="text-lg font-semibold text-gray-700 group-hover:text-blue-700">
+                  {item.label}
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </div>
-    </footer>
-   
-  </>
-  
-  )
+
+      {/* Footer */}
+      <footer className="container-fluid footer_section py-6 text-white text-center">
+        <p className="mb-0">
+          © {new Date().getFullYear()} All Rights Reserved By
+          <Link href="/" className="text-blue-400 hover:text-blue-500 ml-1">
+            ACIMUN
+          </Link>
+        </p>
+      </footer>
+    </>
+  );
 }

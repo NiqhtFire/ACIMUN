@@ -51,7 +51,7 @@ export default function Home() {
               
               <div className='font-bold text-xl'>GA1: Disarmament and International Security Committee</div>
               <ul>
-                <li><a href="https://drive.google.com/file/d/19DdkB4-m9vyj5xe5zyVVtr_ptNo0vGjj/view?usp=sharing" target="_blank">1-Regulating the integration of AI technologies in defense systems to mitigate risks of misuse and escalation of conflicts</a></li>
+                <li><a href="https://drive.google.com/file/d/19DdkB4-m9vyj5xe5zyVVtr_ptNo0vGjj/view?usp=sharing" target="">1-Regulating the integration of AI technologies in defense systems to mitigate risks of misuse and escalation of conflicts</a></li>
                 <li><a href="https://drive.google.com/file/d/1J_pEtTnAU-WHpOci0Lo0stSeY-FFxZHm/view?usp=sharing" target="_blank">2-Strengthening early warning systems for conflict prevention</a></li>
                 <li><a href="https://drive.google.com/file/d/1ZqF4-zWJbQa4yUm2vGf8_bhCgw532OtC/view?usp=sharing" target="_blank">3-Restricting illicit arms trafficking to conflict regions and its impact on prolonging violence</a></li>
               </ul>
@@ -65,15 +65,15 @@ export default function Home() {
 
               <div className='font-bold text-xl'>GA3: Special Political & Decolonization Committee</div>
               <ul>
-                <li><a href="" target="_blank">1-Resolving land disputes stemming from colonial borders</a></li>    
+                <li><div>1-Resolving land disputes stemming from colonial borders</div></li>    
                 <li><a href="https://drive.google.com/file/d/1OinxDsf3P--_4KBEeJuLIkjJxWp_gAWT/view?usp=sharing" target="_blank">2-Monitoring the conflict in the West Bank and Gaza</a></li>    
-                <li><a href="" target="_blank">3-Promoting the principle of territorial integrity in the face of secessionist movements</a></li>    
+                <li><a href="https://drive.google.com/file/d/1A5JpXqjUqlq5M2TygGhnfVYhNig2eM8Y/view?usp=sharing" target="_blank">3-Promoting the principle of territorial integrity in the face of secessionist movements</a></li>    
               </ul>
 
               <div className='font-bold text-xl'>GA4: Environmental Committee</div>
               <ul>
                 <li><a href="https://drive.google.com/file/d/1mQirpn6v27pXwvxmuaxH4taJV6I4Tuys/view?usp=sharing" target="_blank">1-Rehabilitating war-damaged environments as part of peace processess</a></li>
-                <li><a href="" target="_blank">2-Enhancing accessibility to clean water systems in areas of conflict</a></li> 
+                <li><a href="https://drive.google.com/file/d/1zbfF1wROA3ql3UMSajeZlUYdYbLg_hCZ/view?usp=sharing" target="_blank">2-Enhancing accessibility to clean water systems in areas of conflict</a></li> 
                 <li><a href="https://drive.google.com/file/d/1z2jSAeixgo8tdlLu9ptllKzie_6pBH8c/view?usp=sharing" target="_blank">3-Reducing the effects of radioactive decay including health, safety, and environmental implications</a></li> 
               </ul>
 
@@ -87,8 +87,8 @@ export default function Home() {
               <div className='font-bold text-xl'>SDC: Sustainable Development Committee</div>
               <ul>
                 <li><a href="https://drive.google.com/file/d/1JE9hLnXeqcVCoGIk2efzTyi9AYkBb69t/view?usp=sharing" target="_blank">1-Pioneering ways to promote social and economic equality in conflict-affected states</a></li>
-                <li><a href="https://drive.google.com/file/d/1Sl7vWiZaFMxdDcj6CzfLMdfMm7YOSYFd/view?usp=sharing" target="_blank">3-Increasing collaboration among regional organizations and the United Nations</a></li>
-                <li><a href="" target="_blank">3-Enhancing sustainable development through the utilization of information and communications technologies (ICTs)</a></li>
+                <li><a href="https://drive.google.com/file/d/10ctlDN3Zct_zQXcNc04cikxDmuC1b8OP/view?usp=sharing" target="_blank">2-Increasing collaboration among regional organizations and the United Nations</a></li>
+                <li><a href="https://drive.google.com/file/d/1uN1PbCmZTh99PWUO28krwaWv-0A6JnQ5/view?usp=sharing" target="_blank">3-Enhancing sustainable development through the utilization of information and communications technologies (ICTs)</a></li>
               </ul>
 
               <div className='font-bold text-xl'>SPC: Special Conference on Immigration and Refugee Crises</div>
@@ -126,8 +126,8 @@ export default function Home() {
                 <li>1-La question du renforcement du Traité de
                 Non-Prolifération (TNP) pour relever les défis nucléaires modernes</li>
                 <div className='h-2'></div>
-                <li>2-Regulating the use of emerging technologies, such as artificial intelligence and cyber tools, in nuclear warfare</li>
-                <li>2-La régulation de l'utilisation des technologies émergentes, telles que l’intelligence artificielle et les outils cybernétiques, dans la guerre nucléaire</li>
+                <li><a href="https://drive.google.com/file/d/1YiR9PJ7OGi3MaIKMAK90pZApqn0qchUz/view?usp=sharing" target='_blank'>2-Regulating the use of emerging technologies, such as artificial intelligence and cyber tools, in nuclear warfare</a></li>
+                <li><a href="https://drive.google.com/file/d/1YiR9PJ7OGi3MaIKMAK90pZApqn0qchUz/view?usp=sharing" target='_blank'>2-La régulation de l'utilisation des technologies émergentes, telles que l’intelligence artificielle et les outils cybernétiques, dans la guerre nucléaire</a></li>
               </ul>
           
             </div>
