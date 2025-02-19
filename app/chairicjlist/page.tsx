@@ -46,7 +46,7 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="grid grid-cols-1 px-4 md:px-0 md:grid-cols-1 gap-x-[120px] gap-y-[100px] py-5">
             
-            {/* Chair List */}
+       
             <div className="flex justify-center text-2xl font-bold">Chair List</div>
             <div className="grid grid-cols-3 gap-5 shadow-xl rounded-xl py-4 px-5 justify-center">
               <div className="font-bold">Committee</div>
@@ -55,7 +55,7 @@ export default function Home() {
 
               <div>GA1</div>
               <div>Janset Selen</div>
-              <div>Deniz İpek Zeynioğlu</div>
+              <div>Deniz İpek Zeynioğlu, Aileen Aylin Hillhouse</div>
 
               <div>GA2</div>
               <div>Zeynep Turhan</div>
@@ -98,7 +98,7 @@ export default function Home() {
               <div>Su Arseven</div>
             </div>
 
-            {/* ICJ List */}
+ 
             <div className="flex justify-center text-2xl font-bold">ICJ List</div>
             <div className="grid grid-cols-2 gap-5 shadow-xl rounded-xl pt-4 px-5 justify-center">
               <div>Damla Sinem Araz</div>
@@ -119,8 +119,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer Section */}
       <section className="info_section layout_padding">
         <div className="container">
           <div className="info_contact">
