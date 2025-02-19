@@ -86,8 +86,9 @@ export default function Home() {
 
               <div className='font-bold text-xl'>SDC: Sustainable Development Committee</div>
               <ul>
-                <li><a href="https://drive.google.com/file/d/1JE9hLnXeqcVCoGIk2efzTyi9AYkBb69t/view?usp=sharing" target="_blank">1-Pioneering ways to promote social and economic equality in conflict-affected states</a></li>
-                <li><a href="https://drive.google.com/file/d/10ctlDN3Zct_zQXcNc04cikxDmuC1b8OP/view?usp=sharing" target="_blank">2-Increasing collaboration among regional organizations and the United Nations</a></li>
+                <li><a href="https://drive.google.com/file/d/1AsuPwEIsYjU52ItXvPxnswFq-Fkcy1QB/view?usp=sharing" target="_blank">1-Pioneering ways to promote social and economic equality in conflict-affected states</a></li>
+                <li><a href="https://drive.google.com/file/d/10ctlDN3Zct_zQXcNc04cikxDmuC1b8OP/view?usp=sharing" target="_blank">2-Promoting sustainable development goals (SDGs) via multi-stakeholder
+                collaboration</a></li>
                 <li><a href="https://drive.google.com/file/d/1uN1PbCmZTh99PWUO28krwaWv-0A6JnQ5/view?usp=sharing" target="_blank">3-Enhancing sustainable development through the utilization of information and communications technologies (ICTs)</a></li>
               </ul>
 

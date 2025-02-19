@@ -69,14 +69,14 @@ export default function Home() {
         setSelectedForm('');
         setName('');
         setUrl('');
-        fetchFiles(); // Refresh file list after adding
+        fetchFiles();
     };
 
     const deleteFile = async (id: string) => {
         const confirmDelete = confirm("Bu belgeyi silmek istediğinize emin misiniz?");
         if (confirmDelete) {
             await deleteDoc(doc(db, "documents", id));
-            fetchFiles(); // Refresh file list after deleting
+            fetchFiles(); 
         }
     };
 
@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
             ) : (
                 <>
-                    {/* Add Document Section */}
+                   
                     <div className="bg-white/10 backdrop-blur-lg shadow-2xl shadow-green-400/50 rounded-lg p-8 max-w-md w-full text-center mb-8">
                         <h2 className="text-xl font-semibold mb-4 text-white">Belge Ekle</h2>
                         <form onSubmit={addItem} className="space-y-4">
@@ -155,7 +155,6 @@ export default function Home() {
                         </form>
                     </div>
 
-                    {/* Uploaded Files Section */}
                     <div className="max-w-4xl w-full bg-white/10 backdrop-blur-lg shadow-2xl shadow-green-400/50 rounded-lg p-6 text-white">
                         <h2 className="text-2xl font-semibold text-center mb-4">Yüklenen Belgeler</h2>
                         {loading ? (

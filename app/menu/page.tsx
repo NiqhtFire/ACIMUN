@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <title>ACIMUN</title>
 
-      {/* Stylesheets */}
+    
       <link
         rel="stylesheet"
         type="text/css"
@@ -22,7 +22,6 @@ export default function Home() {
       <link rel="stylesheet" type="text/css" href="/css/style.css" />
       <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
 
-      {/* Navbar */}
       <Navbar isBlacked />
 
      
@@ -35,7 +34,6 @@ export default function Home() {
             Navigate through the sections below to learn more about our conference.
           </p>
 
-          {/* Conference Details Links */}
           <div className="flex flex-col gap-4">
             {[
               { href: "/aboutmun", label: "About Us" },
@@ -44,6 +42,7 @@ export default function Home() {
               { href: "/provschedule", label: "Provisional Schedule" },
               { href: "/allocations", label: "Allocations" },
               { href: "/chairicjlist", label: "Chair/ICJ List" },
+              { href: "/resolutions", label: "Resolutions" },
             ].map((item, index) => (
               <Link
                 key={index}
@@ -60,7 +59,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Footer */}
+   
       <footer className="container-fluid footer_section py-6 text-white text-center">
         <p className="mb-0">
           © {new Date().getFullYear()} All Rights Reserved By
